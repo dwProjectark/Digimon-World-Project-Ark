@@ -1,0 +1,197 @@
+fileFormatVersion: 2
+guid: bbcb26de23ef8db448097027d668f043
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: CATRig2Bone001
+    100002: CATRigHub002
+    100004: CATRigHub003
+    100006: CATRigHub003Bone001
+    100008: CATRigHub003Bone002
+    100010: CATRigHub003Bone003
+    100012: CATRigHub003Bone004
+    100014: CATRigHub003Bone005
+    100016: CATRigHub003Bone006
+    100018: CATRigHub003Bone007
+    100020: CATRigHub003Bone008
+    100022: CATRigHub004
+    100024: CATRigLArm1
+    100026: CATRigLArm2
+    100028: CATRigLArmCollarbone
+    100030: CATRigLArmIKTarget
+    100032: CATRigLArmPalm
+    100034: CATRigLLeg1
+    100036: CATRigLLeg2
+    100038: CATRigLLeg3
+    100040: CATRigLLegAnkle
+    100042: CATRigLLegDigit11
+    100044: CATRigLLegDigit12
+    100046: CATRigLLegDigit13
+    100048: CATRigLLegPlatform
+    100050: CATRigLLegUpVectorNode
+    100052: CATRigRArm1
+    100054: CATRigRArm2
+    100056: CATRigRArmCollarbone
+    100058: CATRigRArmDigit11
+    100060: CATRigRArmDigit12
+    100062: CATRigRArmDigit21
+    100064: CATRigRArmDigit22
+    100066: CATRigRArmDigit31
+    100068: CATRigRArmDigit32
+    100070: CATRigRArmIKTarget
+    100072: CATRigRArmPalm
+    100074: CATRigRLeg1
+    100076: CATRigRLeg2
+    100078: CATRigRLeg3
+    100080: CATRigRLegAnkle
+    100082: CATRigRLegDigit11
+    100084: CATRigRLegDigit12
+    100086: CATRigRLegDigit13
+    100088: CATRigRLegPlatform
+    100090: CATRigRLegUpVectorNode
+    100092: CATRigSpine2
+    100094: CATRigSpine2 1
+    100096: CATRigSpine3
+    100098: CATRigSpineCATRigSpine1
+    100100: CATRigSpineCATRigSpine1 1
+    100102: CATRigTail1
+    100104: CATRigTail2
+    100106: CATRigTail3
+    100108: CATRigTail4
+    100110: Character001
+    100112: Megatonpunch
+    100114: Metalgreymon
+    100116: //RootNode
+    100118: Projectile(Chest)
+    100120: Projectile(Claw
+    100122: ProjectileMouth
+    100124: Punch
+    100126: Sky001
+    100128: SkyProjectile
+    100130: Tape001
+    100132: Tape001.Target
+    400000: CATRig2Bone001
+    400002: CATRigHub002
+    400004: CATRigHub003
+    400006: CATRigHub003Bone001
+    400008: CATRigHub003Bone002
+    400010: CATRigHub003Bone003
+    400012: CATRigHub003Bone004
+    400014: CATRigHub003Bone005
+    400016: CATRigHub003Bone006
+    400018: CATRigHub003Bone007
+    400020: CATRigHub003Bone008
+    400022: CATRigHub004
+    400024: CATRigLArm1
+    400026: CATRigLArm2
+    400028: CATRigLArmCollarbone
+    400030: CATRigLArmIKTarget
+    400032: CATRigLArmPalm
+    400034: CATRigLLeg1
+    400036: CATRigLLeg2
+    400038: CATRigLLeg3
+    400040: CATRigLLegAnkle
+    400042: CATRigLLegDigit11
+    400044: CATRigLLegDigit12
+    400046: CATRigLLegDigit13
+    400048: CATRigLLegPlatform
+    400050: CATRigLLegUpVectorNode
+    400052: CATRigRArm1
+    400054: CATRigRArm2
+    400056: CATRigRArmCollarbone
+    400058: CATRigRArmDigit11
+    400060: CATRigRArmDigit12
+    400062: CATRigRArmDigit21
+    400064: CATRigRArmDigit22
+    400066: CATRigRArmDigit31
+    400068: CATRigRArmDigit32
+    400070: CATRigRArmIKTarget
+    400072: CATRigRArmPalm
+    400074: CATRigRLeg1
+    400076: CATRigRLeg2
+    400078: CATRigRLeg3
+    400080: CATRigRLegAnkle
+    400082: CATRigRLegDigit11
+    400084: CATRigRLegDigit12
+    400086: CATRigRLegDigit13
+    400088: CATRigRLegPlatform
+    400090: CATRigRLegUpVectorNode
+    400092: CATRigSpine2
+    400094: CATRigSpine2 1
+    400096: CATRigSpine3
+    400098: CATRigSpineCATRigSpine1
+    400100: CATRigSpineCATRigSpine1 1
+    400102: CATRigTail1
+    400104: CATRigTail2
+    400106: CATRigTail3
+    400108: CATRigTail4
+    400110: Character001
+    400112: Megatonpunch
+    400114: //RootNode
+    400116: Metalgreymon
+    400118: Projectile(Chest)
+    400120: Projectile(Claw
+    400122: ProjectileMouth
+    400124: Punch
+    400126: Sky001
+    400128: SkyProjectile
+    400130: Tape001
+    400132: Tape001.Target
+    4300000: Metalgreymon
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Metalgreymon
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
