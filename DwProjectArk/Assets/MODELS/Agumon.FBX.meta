@@ -104,6 +104,7 @@ ModelImporter:
     4300000: Agumon
     7400000: Take 001
     9500000: //RootNode
+    11100000: //RootNode
     13700000: Agumon
   materials:
     importMaterials: 1
@@ -126,7 +127,7 @@ ModelImporter:
       takeName: Take 001
       firstFrame: 0
       lastFrame: 43
-      wrapMode: 0
+      wrapMode: 2
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
@@ -284,6 +285,6 @@ ModelImporter:
     feetSpacing: 0
     rootMotionBoneName: 
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 1
   additionalBone: 0
   userData: 
