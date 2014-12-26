@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Digimon_stats : MonoBehaviour {
+public class Digimon_Stats : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
