@@ -27,17 +27,13 @@ public class Digivolution_stats : MonoBehaviour {
 	Digimon_Behaviour script;
 	public GameObject Aura;
 	Object clone;
-	NavMeshAgent nav;
-	Animation animation;
-	public AnimationClip[] _anim;
 
 	// Use this for initialization
 	void Start () {
-		nav = GetComponent<NavMeshAgent> ();
+
 		otherCamera = GameObject.FindGameObjectsWithTag("MainCamera");
 		script = GetComponent<Digimon_Behaviour> ();
 		evolving = true;
-		animation = GetComponent<Animation> ();
 
 	}
 	
@@ -46,11 +42,8 @@ public class Digivolution_stats : MonoBehaviour {
 	
 		if(Brains > 30 && Defense > 30 && MaxHP > 300 )
 		{
-			Destroy(script);
-			nav.speed = 0;
-			animation.CrossFade(_anim[0].name);
 			digimonCamera.enabled = true;
-
+			Destroy(script);
 			if (evolving)
 			{
 				clone = Instantiate(Aura,transform.position,transform.rotation);

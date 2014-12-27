@@ -42,7 +42,7 @@ public class Digivolution_stats : MonoBehaviour {
 			//digimonCamera.enabled = true;
 			//float x = 1*Time.deltaTime*rotation_speed;
 			transform.Rotate(0,1*Time.deltaTime*rotation_speed,0); 
-			counter += 1*Time.deltaTime*rotation_speed/360;
+			//counter += 1*Time.deltaTime*rotation_speed/360;
 			//Debug.Log(counter);
 			//Debug.Log (digimonCamera.enabled);
 
