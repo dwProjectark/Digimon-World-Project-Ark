@@ -22,33 +22,7 @@ Platform assembly: E:\Program\Unity3D\New Unity Project 3\DIGIMON1_Data\Managed\
 Loading E:\Program\Unity3D\New Unity Project 3\DIGIMON1_Data\Managed\Pathfinding.Ionic.Zip.Reduced.dll into Unity Child Domain
 Platform assembly: E:\Program\Unity3D\New Unity Project 3\DIGIMON1_Data\Managed\Pathfinding.JsonFx.dll (this message is harmless)
 Loading E:\Program\Unity3D\New Unity Project 3\DIGIMON1_Data\Managed\Pathfinding.JsonFx.dll into Unity Child Domain
-- Completed reload, in  0.107 seconds
+- Completed reload, in  0.193 seconds
 desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-Platform assembly: E:\Program\Unity3D\New Unity Project 3\DIGIMON1_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: E:\Program\Unity3D\New Unity Project 3\DIGIMON1_Data\Managed\System.dll (this message is harmless)
-Scanning - Process took 7 ms to complete
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Path Completed : Computation Time 4.00 ms Searched Nodes 13 Path Length 5
-Path Number 1
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Path Completed : Computation Time 0.00 ms Searched Nodes 3 Path Length 2
-Path Number 2
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Path Completed : Computation Time 0.00 ms Searched Nodes 5 Path Length 3
-Path Number 3
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Path Completed : Computation Time 0.00 ms Searched Nodes 7 Path Length 3
-Path Number 4
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
