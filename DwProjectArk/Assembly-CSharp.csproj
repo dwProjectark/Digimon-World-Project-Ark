@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{D0DF9011-827F-A480-F3F6-D67DF419C407}</ProjectGuid>
+	<ProjectGuid>{E70D7C0A-F9DB-957C-CA86-61A97685E304}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -70,7 +70,8 @@
      <Compile Include="Assets\Pathfinding\Scripts\WaypointNode.cs" />
      <Compile Include="Assets\Pathfinding\Scripts\WaypointPathfinder.cs" />
      <Compile Include="Assets\Script\Agumon.cs" />
-     <Compile Include="Assets\Script\Digimon_Stats.cs" />
+     <Compile Include="Assets\Script\CameraFollow.cs" />
+     <Compile Include="Assets\Script\Digimon_stats.cs" />
      <Compile Include="Assets\Script\Digivolution_stats.cs" />
      <Compile Include="Assets\Script\Greymon.cs" />
      <Compile Include="Assets\Script\Menu.cs" />
@@ -89,9 +90,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{C25C36C1-F437-8DA5-EE32-30E57563068F}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{96159654-BBBC-5917-A582-FA95928F3031}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
-      <Project>{71C5FFF7-8AA0-CC2C-A1D8-6AF3E2DD8D9A}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+      <Project>{E405C94F-0729-34B7-4281-EF61EAB82FD0}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
