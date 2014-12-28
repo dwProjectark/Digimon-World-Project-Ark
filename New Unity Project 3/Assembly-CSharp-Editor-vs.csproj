@@ -50,13 +50,14 @@
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\DayNightCycle\TOD\shader\SkyboxBlend.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>E:/Program/Unity3D/New Unity Project 3/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/Users/Salem/Documents/GitHub/Digimon_Project/Digimon-World-Project-Ark/New Unity Project 3/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="Assembly-UnityScript">
- <HintPath>E:/Program/Unity3D/New Unity Project 3/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ <HintPath>C:/Users/Salem/Documents/GitHub/Digimon_Project/Digimon-World-Project-Ark/New Unity Project 3/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>E:/Program/Unity3D/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
@@ -65,10 +66,10 @@
  <HintPath>E:/Program/Unity3D/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/Editor/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="PKFx-Runtime">
- <HintPath>E:/Program/Unity3D/New Unity Project 3/Assets/PackPack/PopcornFX/Scripts/PKFx-Runtime.dll</HintPath>
+ <HintPath>C:/Users/Salem/Documents/GitHub/Digimon_Project/Digimon-World-Project-Ark/New Unity Project 3/Assets/PackPack/PopcornFX/Scripts/PKFx-Runtime.dll</HintPath>
  </Reference>
  <Reference Include="PKFxManager">
- <HintPath>E:/Program/Unity3D/New Unity Project 3/Assets/PackPack/PopcornFX/Scripts/PKFxManager.dll</HintPath>
+ <HintPath>C:/Users/Salem/Documents/GitHub/Digimon_Project/Digimon-World-Project-Ark/New Unity Project 3/Assets/PackPack/PopcornFX/Scripts/PKFxManager.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>E:/Program/Unity3D/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
