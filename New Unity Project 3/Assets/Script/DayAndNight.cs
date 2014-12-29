@@ -5,6 +5,7 @@ public class DayAndNight : MonoBehaviour {
 	public float slider;
 	public float slider2;
 	public float Hour;
+
 	private float Tod;
 	public Light sun;
 	public int speed;

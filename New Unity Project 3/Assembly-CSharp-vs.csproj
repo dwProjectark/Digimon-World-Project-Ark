@@ -72,6 +72,7 @@
      <Compile Include="Assets\Script\Accessing_Menu.cs" />
      <Compile Include="Assets\Script\DAY.cs" />
      <Compile Include="Assets\Script\DayAndNight.cs" />
+     <Compile Include="Assets\Script\DigimonBase.cs" />
      <Compile Include="Assets\Script\Digimon_Behaviour.cs" />
      <Compile Include="Assets\Script\Digimon_Button.cs" />
      <Compile Include="Assets\Script\Digimon_Menu_Stats_Button.cs" />
@@ -84,6 +85,7 @@
      <Compile Include="Assets\Script\Movement.cs" />
      <Compile Include="Assets\Script\NPC.cs" />
      <Compile Include="Assets\Script\PLAYER_BUTTON.cs" />
+     <Compile Include="Assets\Script\Partner_Stats.cs" />
      <Compile Include="Assets\Script\Player_Menu_Stats_Button.cs" />
      <Compile Include="Assets\Script\Year.cs" />
      <Compile Include="Assets\Script\camera_switching.cs" />
