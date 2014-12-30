@@ -12,7 +12,7 @@ public class DigimonBase : MonoBehaviour {
 	public float[] time_Hunger;
 	public float[] time_Unhngery;
 	public float[]	time_Pooping;
-	public float[] time _Unpooping;
+	public float[] time_Unpooping;
 	public float[] time_Sleep;
 	public float[] time_Unsleep;
 	public GameObject DayANight;
@@ -20,30 +20,42 @@ public class DigimonBase : MonoBehaviour {
 	public CanvasGroup canvas2;
 	public CanvasGroup canvas3;
 	float hour;
-	int counter_Is;
-	int counter_IsNot;
+	int counter_Is_Hunger;
+	int counter_IsNot_Hunger;
+	int counter_Is_Pooping;
+	int counter_IsNot_Pooping;
+	int counter_Is_Sleeping;
+	int counter_IsNot_Sleeping;
 
 
 	// Use this for initialization
 	void Start () {
 		isHungry = false;
+		isPoop = false;
+		isSleep = false;
 		//time_Unhngery[time_Hunger];
 
 		for (int i =0; i < time_Hunger.Length; i++)
 		{
 			time_Unhngery[i] = time_Hunger[i]+2f;
 		}
-		for (int i =0; i < time_Hunger.Length; i++)
+		for (int i =0; i < time_Pooping.Length; i++)
 		{
-			time_Unhngery[i] = time_Hunger[i]+2f;
+			time_Unpooping[i] = time_Pooping[i]+2f;
 		}
-		for (int i =0; i < time_Hunger.Length; i++)
+		for (int i =0; i < time_Sleep.Length; i++)
 		{
-			time_Unhngery[i] = time_Hunger[i]+2f;
+			time_Unsleep[i] = time_Sleep[i]+2f;
 		}
-		canvas.alpha = 0;
-		counter_Is = 0;
-		counter_IsNot = 0;
+		canvas1.alpha = 0;
+		canvas2.alpha = 0;
+		canvas3.alpha = 0;
+		counter_Is_Hunger = 0;
+		counter_IsNot_Hunger = 0;
+		counter_Is_Pooping = 0;
+		counter_IsNot_Pooping = 0;
+		counter_Is_Sleeping = 0;
+		counter_IsNot_Sleeping = 0;
 
 	}
 	
@@ -51,20 +63,23 @@ public class DigimonBase : MonoBehaviour {
 	void Update () {
 		hour = DayANight.GetComponent <DayAndNight>().Hour;
 
-		if (time_Hunger[counter_Is] <= hour&&time_Hunger[counter_Is]< time_Unhngery[counter_IsNot])
+		if (time_Hunger[counter_Is_Hunger] <= hour&&time_Hunger[counter_Is_Hunger]< time_Unhngery[counter_IsNot_Hunger]&&hour < time_Hunger[time_Hunger.Length-1]+1)
 		{
 
 			isHungry = true;
 			if (isHungry)
 			{
-				canvas.alpha = 1;
-				if (counter_Is+1 < time_Hunger.Length)
+				canvas1.alpha = 1;
+
+				if (counter_Is_Hunger+1 < time_Hunger.Length)
 				{
-					counter_Is ++;
+					counter_Is_Hunger ++;
+
 				}
-				else if (counter_Is+1 >= time_Hunger.Length)
+				else if (counter_Is_Hunger+1 >= time_Hunger.Length)
 				{
-					counter_Is =0;
+					counter_Is_Hunger =0;
+
 				}
 			}
 
@@ -72,23 +87,103 @@ public class DigimonBase : MonoBehaviour {
 
 
 		}
-		else if(time_Unhngery[counter_IsNot]<= hour)
+		else if(time_Unhngery[counter_IsNot_Hunger]<= hour&&hour <time_Unhngery[time_Unhngery.Length-1]+1)
 		{
 			isHungry = false;
+
 			if(!isHungry)
 			{
-				canvas.alpha = 0;
-				if (counter_IsNot < time_Hunger.Length)
+				canvas1.alpha = 0;
+				if (counter_IsNot_Hunger+1 < time_Unhngery.Length)
 				{
-					counter_IsNot ++;
+					counter_IsNot_Hunger ++;
 				}
-				else if (counter_IsNot >= time_Hunger.Length)
+				else if (counter_IsNot_Hunger+1 >= time_Unhngery.Length)
 				{
-					counter_IsNot =0;
+					counter_IsNot_Hunger =0;
+
 				}
 			}
 		}
 
+		if (time_Pooping[counter_Is_Pooping] <= hour&&time_Pooping[counter_Is_Pooping]< time_Unpooping[counter_IsNot_Pooping]&&hour < time_Pooping[time_Pooping.Length-1]+1)
+		{
+			
+			isPoop = true;
+
+			if (isPoop)
+			{
+
+				canvas2.alpha = 1;
+				if (counter_Is_Pooping+1 < time_Pooping.Length)
+				{
+					counter_Is_Pooping ++;
+				}
+				else if (counter_Is_Pooping+1 >= time_Pooping.Length)
+				{
+					counter_Is_Pooping =0;
+				}
+			}
+			
+			
+			
+			
+		}
+		else if(time_Unpooping[counter_IsNot_Pooping]<= hour&&hour <time_Unpooping[time_Unpooping.Length-1]+1)
+		{
+			isPoop = false;
+			if(!isPoop)
+			{
+				canvas2.alpha = 0;
+				Debug.Log(counter_IsNot_Pooping);
+				if (counter_IsNot_Pooping+1 < time_Unpooping.Length)
+				{
+					counter_IsNot_Pooping ++;
+				}
+				else if (counter_IsNot_Pooping +1>= time_Unpooping.Length)
+				{
+					counter_IsNot_Pooping =0;
+				}
+			}
+		}
+
+		if (time_Sleep[counter_Is_Sleeping] <= hour&&time_Sleep[counter_Is_Sleeping]< time_Unsleep[counter_IsNot_Sleeping]&&hour <time_Sleep[time_Sleep.Length-1]+1)
+		{
+			
+			isSleep = true;
+			if (isSleep)
+			{
+				canvas3.alpha = 1;
+				if (counter_Is_Sleeping+1 < time_Sleep.Length)
+				{
+					counter_Is_Sleeping ++;
+				}
+				else if (counter_Is_Pooping+1 >= time_Sleep.Length)
+				{
+					counter_Is_Sleeping =0;
+				}
+			}
+			
+			
+			
+			
+		}
+		else if(time_Unsleep[counter_IsNot_Sleeping]<= hour&&hour <time_Unsleep[time_Unsleep.Length-1]+1)
+		{
+			isSleep = false;
+			if(!isSleep)
+			{
+				canvas3.alpha = 0;
+				if (counter_IsNot_Sleeping+1 < time_Sleep.Length)
+				{
+					counter_IsNot_Sleeping ++;
+				}
+				else if (counter_IsNot_Sleeping+1 >= time_Sleep.Length)
+				{
+					counter_IsNot_Sleeping =0;
+				}
+			}
+		}
 
 	}
 }
