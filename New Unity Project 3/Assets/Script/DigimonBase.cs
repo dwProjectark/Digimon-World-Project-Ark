@@ -7,10 +7,18 @@ public class DigimonBase : MonoBehaviour {
 	public string Atrribute;
 	public string Element;
 	public bool isHungry;
+	public bool isPoop;
+	public bool isSleep;
 	public float[] time_Hunger;
 	public float[] time_Unhngery;
+	public float[]	time_Pooping;
+	public float[] time _Unpooping;
+	public float[] time_Sleep;
+	public float[] time_Unsleep;
 	public GameObject DayANight;
-	public CanvasGroup canvas;
+	public CanvasGroup canvas1;
+	public CanvasGroup canvas2;
+	public CanvasGroup canvas3;
 	float hour;
 	int counter_Is;
 	int counter_IsNot;
@@ -21,6 +29,14 @@ public class DigimonBase : MonoBehaviour {
 		isHungry = false;
 		//time_Unhngery[time_Hunger];
 
+		for (int i =0; i < time_Hunger.Length; i++)
+		{
+			time_Unhngery[i] = time_Hunger[i]+2f;
+		}
+		for (int i =0; i < time_Hunger.Length; i++)
+		{
+			time_Unhngery[i] = time_Hunger[i]+2f;
+		}
 		for (int i =0; i < time_Hunger.Length; i++)
 		{
 			time_Unhngery[i] = time_Hunger[i]+2f;
