@@ -47,8 +47,10 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Script\Accessing_Menu.cs" />
+     <Compile Include="Assets\Script\Closing.cs" />
      <Compile Include="Assets\Script\DAY.cs" />
      <Compile Include="Assets\Script\DayAndNight.cs" />
+     <Compile Include="Assets\Script\DescriptionCode.cs" />
      <Compile Include="Assets\Script\DigimonBase.cs" />
      <Compile Include="Assets\Script\Digimon_Behaviour.cs" />
      <Compile Include="Assets\Script\Digimon_Button.cs" />
@@ -56,6 +58,9 @@
      <Compile Include="Assets\Script\Digimon_Stats.cs" />
      <Compile Include="Assets\Script\Digivolution_stats.cs" />
      <Compile Include="Assets\Script\Hour.cs" />
+     <Compile Include="Assets\Script\Inventory_Player.cs" />
+     <Compile Include="Assets\Script\Item.cs" />
+     <Compile Include="Assets\Script\ItemDatabase.cs" />
      <Compile Include="Assets\Script\Menu.cs" />
      <Compile Include="Assets\Script\Menu1.cs" />
      <Compile Include="Assets\Script\Menu_Test.cs" />
@@ -63,13 +68,17 @@
      <Compile Include="Assets\Script\NPC.cs" />
      <Compile Include="Assets\Script\PLAYER_BUTTON.cs" />
      <Compile Include="Assets\Script\Partner_Stats.cs" />
+     <Compile Include="Assets\Script\PickUpItem.cs" />
      <Compile Include="Assets\Script\Player_Menu_Stats_Button.cs" />
+     <Compile Include="Assets\Script\SlotScript.cs" />
+     <Compile Include="Assets\Script\UseItemBoost.cs" />
      <Compile Include="Assets\Script\Year.cs" />
      <Compile Include="Assets\Script\camera_switching.cs" />
      <Compile Include="Assets\Script\player.cs" />
      <Compile Include="Assets\SkinTest.cs" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\DayNightCycle\TOD\shader\SkyboxBlend.shader" />
+     <None Include="Assets\Inventory\Credits + C#.txt" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
      <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />

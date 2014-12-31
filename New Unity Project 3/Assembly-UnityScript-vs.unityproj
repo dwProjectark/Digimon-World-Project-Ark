@@ -47,8 +47,20 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\DayNightCycle\TOD\TOD.js" />
+     <Compile Include="Assets\Inventory\Scripts\Character.js" />
+     <Compile Include="Assets\Inventory\Scripts\Inventory.js" />
+     <Compile Include="Assets\Inventory\Scripts\InventoryDisplay.js" />
+     <Compile Include="Assets\Inventory\Scripts\Items\EquipmentEffect.js" />
+     <Compile Include="Assets\Inventory\Scripts\Items\FirstPersonPickUp.js" />
+     <Compile Include="Assets\Inventory\Scripts\Items\Item.js" />
+     <Compile Include="Assets\Inventory\Scripts\Items\ItemEffect.js" />
+     <Compile Include="Assets\Inventory\Scripts\Other\ChangeScene.js" />
+     <Compile Include="Assets\Inventory\Scripts\Other\InvAudio.js" />
+     <Compile Include="Assets\Inventory\Scripts\Other\InvPauseGame.js" />
+     <Compile Include="Assets\Inventory\Scripts\Other\WeaponSwitch.js" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\DayNightCycle\TOD\shader\SkyboxBlend.shader" />
+     <None Include="Assets\Inventory\Credits + C#.txt" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
      <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
