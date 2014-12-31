@@ -8,6 +8,7 @@ public class Accessing_Menu : MonoBehaviour {
 	public CanvasGroup Player_Menu_Stats;
 	public CanvasGroup Dgimon_Menu;
 	public CanvasGroup Dgimon_Menu_Stats;
+	public CanvasGroup inventoryMenu;
 	// Use this for initialization
 	void Start () {
 		isOpen = false;
@@ -37,6 +38,8 @@ public class Accessing_Menu : MonoBehaviour {
 				Dgimon_Menu.interactable = false;
 				Dgimon_Menu_Stats.alpha = 0;
 				Dgimon_Menu_Stats.interactable = false;
+				inventoryMenu.alpha = 0;
+				inventoryMenu.interactable = false;
 				isOpen = true;
 			}
 		}
