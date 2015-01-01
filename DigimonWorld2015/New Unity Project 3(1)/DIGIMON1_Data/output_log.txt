@@ -1,0 +1,28 @@
+Initialize engine version: 4.6.1f1 (d1db7a1b5196)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 650M  (ID=0xfd1)
+    Vendor:   NVIDIA
+    VRAM:     1985 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: E:\Program\Unity3D\New Unity Project 3\DIGIMON1_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading E:\Program\Unity3D\New Unity Project 3\DIGIMON1_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: E:\Program\Unity3D\New Unity Project 3\DIGIMON1_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading E:\Program\Unity3D\New Unity Project 3\DIGIMON1_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: E:\Program\Unity3D\New Unity Project 3\DIGIMON1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading E:\Program\Unity3D\New Unity Project 3\DIGIMON1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: E:\Program\Unity3D\New Unity Project 3\DIGIMON1_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading E:\Program\Unity3D\New Unity Project 3\DIGIMON1_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: E:\Program\Unity3D\New Unity Project 3\DIGIMON1_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading E:\Program\Unity3D\New Unity Project 3\DIGIMON1_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: E:\Program\Unity3D\New Unity Project 3\DIGIMON1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading E:\Program\Unity3D\New Unity Project 3\DIGIMON1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: E:\Program\Unity3D\New Unity Project 3\DIGIMON1_Data\Managed\Pathfinding.Ionic.Zip.Reduced.dll (this message is harmless)
+Loading E:\Program\Unity3D\New Unity Project 3\DIGIMON1_Data\Managed\Pathfinding.Ionic.Zip.Reduced.dll into Unity Child Domain
+Platform assembly: E:\Program\Unity3D\New Unity Project 3\DIGIMON1_Data\Managed\Pathfinding.JsonFx.dll (this message is harmless)
+Loading E:\Program\Unity3D\New Unity Project 3\DIGIMON1_Data\Managed\Pathfinding.JsonFx.dll into Unity Child Domain
+- Completed reload, in  0.193 seconds
+desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.

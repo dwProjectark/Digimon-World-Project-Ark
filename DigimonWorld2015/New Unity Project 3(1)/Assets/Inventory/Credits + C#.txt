@@ -1,0 +1,14 @@
+Inventory System - Made by Asbjørn Thirslund, CEO of Brackeys.
+
+Thanks to:
+- Eigil Pock-Steen Jørgensen for providing the "Axe" model.
+- Sameen Ibne (BlendControl.com) for making the "Iron Mace" asset.
+- Ernest Mallet (darkcloudgames.com) for providing a C# version of the scripts. Check them out below.
+
+Sounds:
+- "InvCloseSound" by "Koops" - http://www.freesound.org/people/Koops/sounds/20229/
+- "InvPickUpSound" by "timmy_h123" - http://www.freesound.org/people/timmy_h123/sounds/160503/
+
+Have you made something cool for the Inventory System? Write at "at@brackeys.com".
+
+C# version for 1.1.1 (NOT an official release): http://brackeys.com/inventory/

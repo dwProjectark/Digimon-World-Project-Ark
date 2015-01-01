@@ -1,0 +1,18 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Closing.cs">
+    <Files>
+      <File FileName="Assets\Script\Closing.cs" Line="10" Column="2" />
+      <File FileName="Assets\Script\UseItemBoost.cs" Line="49" Column="3" />
+      <File FileName="Assets\Script\SlotScript.cs" Line="66" Column="56" />
+      <File FileName="Assets\Script\ItemDatabase.cs" Line="10" Column="52" />
+      <File FileName="Assets\Script\Inventory_Player.cs" Line="33" Column="5" />
+      <File FileName="Assets\Script\PickUpItem.cs" Line="35" Column="1" />
+      <File FileName="Assets\Script\DigimonBase.cs" Line="191" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
