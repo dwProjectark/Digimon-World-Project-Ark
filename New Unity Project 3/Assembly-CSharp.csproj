@@ -58,7 +58,6 @@
      <Compile Include="Assets\Script\Digimon_Stats.cs" />
      <Compile Include="Assets\Script\Digivolution_stats.cs" />
      <Compile Include="Assets\Script\Hour.cs" />
-     <Compile Include="Assets\Script\InventoryButton.cs" />
      <Compile Include="Assets\Script\Inventory_Player.cs" />
      <Compile Include="Assets\Script\Item.cs" />
      <Compile Include="Assets\Script\ItemDatabase.cs" />
