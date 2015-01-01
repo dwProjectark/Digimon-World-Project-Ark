@@ -73,6 +73,7 @@
      <Compile Include="Assets\Script\Player_Menu_Stats_Button.cs" />
      <Compile Include="Assets\Script\SlotScript.cs" />
      <Compile Include="Assets\Script\UseItemBoost.cs" />
+     <Compile Include="Assets\Script\UseItemFood.cs" />
      <Compile Include="Assets\Script\Year.cs" />
      <Compile Include="Assets\Script\camera_switching.cs" />
      <Compile Include="Assets\Script\player.cs" />

@@ -9,6 +9,8 @@ public class Accessing_Menu : MonoBehaviour {
 	public CanvasGroup Dgimon_Menu;
 	public CanvasGroup Dgimon_Menu_Stats;
 	public CanvasGroup inventoryMenu;
+	public Canvas sortingMenu;
+	public Canvas sortingInventory;
 	// Use this for initialization
 	void Start () {
 		isOpen = false;
@@ -25,6 +27,7 @@ public class Accessing_Menu : MonoBehaviour {
 				Main_Menu.alpha = 1;
 				Main_Menu.interactable = true;
 				isOpen = false;
+				sortingMenu.sortingOrder = 1;
 			}
 			else 
 			{
@@ -40,6 +43,7 @@ public class Accessing_Menu : MonoBehaviour {
 				Dgimon_Menu_Stats.interactable = false;
 				inventoryMenu.alpha = 0;
 				inventoryMenu.interactable = false;
+				sortingInventory.sortingOrder = 0;
 				isOpen = true;
 			}
 		}

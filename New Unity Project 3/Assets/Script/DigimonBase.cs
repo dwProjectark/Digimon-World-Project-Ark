@@ -26,6 +26,7 @@ public class DigimonBase : MonoBehaviour {
 	int counter_IsNot_Pooping;
 	int counter_Is_Sleeping;
 	int counter_IsNot_Sleeping;
+	public int stomachSize;
 
 
 	// Use this for initialization
@@ -63,7 +64,7 @@ public class DigimonBase : MonoBehaviour {
 	void Update () {
 		hour = DayANight.GetComponent <DayAndNight>().Hour;
 
-		if (time_Hunger[counter_Is_Hunger] <= hour&&time_Hunger[counter_Is_Hunger]< time_Unhngery[counter_IsNot_Hunger]&&hour < time_Hunger[time_Hunger.Length-1]+1)
+		if (time_Hunger[counter_Is_Hunger] <= hour&&time_Hunger[counter_Is_Hunger]< time_Unhngery[counter_IsNot_Hunger]&&hour < time_Hunger[time_Hunger.Length-1]+1&&stomachSize >0)
 		{
 
 			isHungry = true;
@@ -87,7 +88,7 @@ public class DigimonBase : MonoBehaviour {
 
 
 		}
-		else if(time_Unhngery[counter_IsNot_Hunger]<= hour&&hour <time_Unhngery[time_Unhngery.Length-1]+1)
+		else if(time_Unhngery[counter_IsNot_Hunger]<= hour&&hour <time_Unhngery[time_Unhngery.Length-1]+1||stomachSize ==0 )
 		{
 			isHungry = false;
 

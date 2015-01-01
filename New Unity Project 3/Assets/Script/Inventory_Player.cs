@@ -20,7 +20,7 @@ public class Inventory_Player : MonoBehaviour {
 						slot.GetComponent<SlotScript>().SlotNum = Slotamount;
 						Slots.Add (slot);
 						Items.Add(new Item());
-						slot.name = "Button";
+						slot.name = "Button"+i;
 						slot.transform.parent = this.gameObject.transform;
 						slot.GetComponent<RectTransform>().localPosition = new Vector3(x,y,0);
 						slot.transform.localScale = new Vector3 (1,1,1);
@@ -28,7 +28,9 @@ public class Inventory_Player : MonoBehaviour {
 						Slotamount++;
 				}
 		addItem (0);
+		addItem (1);
 		Debug.Log (Items [0].name);
+		Debug.Log (Items [1].name);
 	}
 	
 	// Update is called once per frame

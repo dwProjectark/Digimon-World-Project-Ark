@@ -6,6 +6,8 @@ public class InventoryButton : MonoBehaviour {
 	public CanvasGroup digimonMenu;
 	public CanvasGroup mainMenu;
 	public CanvasGroup inventoryMenu;
+	public Canvas sortingInventory;
+	public Canvas sortingMenu;
 	// Use this for initialization
 	void Start () {
 	
@@ -24,8 +26,11 @@ public class InventoryButton : MonoBehaviour {
 		digimonMenu.interactable = false;
 		mainMenu.alpha = 0;
 		mainMenu.interactable = false;
+		sortingMenu.sortingOrder = 0;
 		inventoryMenu.alpha = 1;
 		inventoryMenu.interactable = true;
+		sortingInventory.sortingOrder = 1;
+
 
 	}
 }

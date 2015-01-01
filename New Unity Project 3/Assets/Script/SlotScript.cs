@@ -12,30 +12,37 @@ public class SlotScript : MonoBehaviour,IPointerEnterHandler,IPointerExitHandler
 	public Text itemAmount;
 	 Text itemDesc;
 	public int SlotNum;
-	public int Amount;
+
 	public CanvasGroup option;
+	public CanvasGroup option2;
+	public Canvas sortingOption;
+	public Canvas sortingOption2;
+
+
 	public Inventory_Player inventory;
 
 
 	// Use this for initialization
 	void Start () {
 		//itemDesc.text = "H";
-		Amount = 0;
+
 		inventory = GameObject.FindGameObjectWithTag ("Inventory").GetComponent<Inventory_Player> ();
 		itemImage = gameObject.transform.GetChild (0).GetComponent<Image> ();
 		itemName = gameObject.transform.GetChild (1).GetComponent<Text> ();
 		itemAmount = gameObject.transform.GetChild (2).GetComponent<Text> ();
 		itemDesc = GameObject.FindGameObjectWithTag ("Description").GetComponent<Text>();
 		itemDesc.enabled = false;
-		option = GameObject.FindGameObjectWithTag ("Option").GetComponent<CanvasGroup> ();
-		option.alpha = 0;
-		option.interactable = false;
+		option = GameObject.FindGameObjectWithTag ("Option").GetComponent<CanvasGroup>();
+		option2 = GameObject.FindGameObjectWithTag ("Option2").GetComponent<CanvasGroup>();
+		sortingOption = GameObject.FindGameObjectWithTag ("Option").GetComponent<Canvas>();
+		sortingOption2 = GameObject.FindGameObjectWithTag ("Option2").GetComponent<Canvas>();
+
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		//Debug.Log (itemDesc);
-		inventory.Items [SlotNum].amount = Amount;
+		//inventory.Items [SlotNum].amount = Amount;
 		if (inventory.Items[SlotNum].name != null&&inventory.Items[SlotNum].amount !=0) {
 						itemImage.enabled = true;
 						itemName.enabled =  true;
@@ -43,6 +50,8 @@ public class SlotScript : MonoBehaviour,IPointerEnterHandler,IPointerExitHandler
 						itemImage.sprite = inventory.Items[SlotNum].icon;
 						itemName.text = inventory.Items[SlotNum].name;
 						itemAmount.text = inventory.Items[SlotNum].amount.ToString();
+						
+
 						
 						
 				} 
@@ -72,12 +81,30 @@ public class SlotScript : MonoBehaviour,IPointerEnterHandler,IPointerExitHandler
 
 	public void OnPointerDown(PointerEventData data)
 	{
-		if (inventory.Items [SlotNum].amount != 0) 
+		if (SlotNum ==0&&inventory.Items [SlotNum].amount != 0) 
 		{
-			option.alpha =1;
-			option.interactable = true;
+			option.alpha = 1;
+				option.interactable = true;
+			sortingOption.sortingOrder = 2;
+			option2.alpha = 0;
+			option2.interactable = false;
+			sortingOption2.sortingOrder = 0;
+		
+
+		}
+		if (SlotNum == 1&&inventory.Items [SlotNum].amount != 0)
+		{
+			option.alpha = 0;
+				option.interactable = false;
+			sortingOption.sortingOrder = 0;
+			option2.alpha = 1;
+			option2.interactable = true;
+			sortingOption2.sortingOrder = 2;
+	
+
 		}
 	}
+
 
 
 
