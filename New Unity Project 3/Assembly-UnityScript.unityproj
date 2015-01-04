@@ -58,6 +58,9 @@
      <Compile Include="Assets\Inventory\Scripts\Other\InvAudio.js" />
      <Compile Include="Assets\Inventory\Scripts\Other\InvPauseGame.js" />
      <Compile Include="Assets\Inventory\Scripts\Other\WeaponSwitch.js" />
+     <Compile Include="Assets\Pathfinding\Scenes\Scripts\JSGridPlayer.js" />
+     <Compile Include="Assets\Pathfinding\Scenes\Scripts\JSGridPlayer2D.js" />
+     <Compile Include="Assets\Pathfinding\Scripts\JSPath.js" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\DayNightCycle\TOD\shader\SkyboxBlend.shader" />
      <None Include="Assets\Inventory\Credits + C#.txt" />
@@ -67,6 +70,12 @@
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>E:/Program/Unity3D/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="PKFx-Runtime">
+ <HintPath>E:/Program/Unity3D/New Unity Project 3/Assets/PackPack/PopcornFX/Scripts/PKFx-Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="PKFxManager">
+ <HintPath>E:/Program/Unity3D/New Unity Project 3/Assets/PackPack/PopcornFX/Scripts/PKFxManager.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

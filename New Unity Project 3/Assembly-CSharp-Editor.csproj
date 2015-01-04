@@ -49,6 +49,7 @@
      <Compile Include="Assets\Pathfinding\Editor\WaypointEditor.cs" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\DayNightCycle\TOD\shader\SkyboxBlend.shader" />
+     <None Include="Assets\Inventory\Credits + C#.txt" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
      <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
@@ -60,10 +61,10 @@
  <HintPath>E:/Program/Unity3D/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/Editor/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="PKFx-Runtime">
- <HintPath>C:/Users/Salem/Documents/GitHub/Digimon_Project/Digimon-World-Project-Ark/New Unity Project 3/Assets/PackPack/PopcornFX/Scripts/PKFx-Runtime.dll</HintPath>
+ <HintPath>E:/Program/Unity3D/New Unity Project 3/Assets/PackPack/PopcornFX/Scripts/PKFx-Runtime.dll</HintPath>
  </Reference>
  <Reference Include="PKFxManager">
- <HintPath>C:/Users/Salem/Documents/GitHub/Digimon_Project/Digimon-World-Project-Ark/New Unity Project 3/Assets/PackPack/PopcornFX/Scripts/PKFxManager.dll</HintPath>
+ <HintPath>E:/Program/Unity3D/New Unity Project 3/Assets/PackPack/PopcornFX/Scripts/PKFxManager.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>E:/Program/Unity3D/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>

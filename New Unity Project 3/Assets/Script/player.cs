@@ -2,6 +2,7 @@
 using System.Collections;
 [AddComponentMenu("Rayco's scripts/third person controller")]
 public class player : MonoBehaviour {
+
 	public AnimationClip idleAnimation;
 	public AnimationClip walkAnimation;
 	public AnimationClip runAnimation;

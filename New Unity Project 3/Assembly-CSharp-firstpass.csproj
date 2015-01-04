@@ -60,6 +60,12 @@
  <Reference Include="UnityEngine.UI">
  <HintPath>E:/Program/Unity3D/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>
+ <Reference Include="PKFx-Runtime">
+ <HintPath>E:/Program/Unity3D/New Unity Project 3/Assets/PackPack/PopcornFX/Scripts/PKFx-Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="PKFxManager">
+ <HintPath>E:/Program/Unity3D/New Unity Project 3/Assets/PackPack/PopcornFX/Scripts/PKFxManager.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

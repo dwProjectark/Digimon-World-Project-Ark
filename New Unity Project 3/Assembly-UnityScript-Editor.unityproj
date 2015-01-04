@@ -60,6 +60,12 @@
  <Reference Include="UnityEditor.UI">
  <HintPath>E:/Program/Unity3D/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/Editor/UnityEditor.UI.dll</HintPath>
  </Reference>
+ <Reference Include="PKFx-Runtime">
+ <HintPath>E:/Program/Unity3D/New Unity Project 3/Assets/PackPack/PopcornFX/Scripts/PKFx-Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="PKFxManager">
+ <HintPath>E:/Program/Unity3D/New Unity Project 3/Assets/PackPack/PopcornFX/Scripts/PKFxManager.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>E:/Program/Unity3D/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
