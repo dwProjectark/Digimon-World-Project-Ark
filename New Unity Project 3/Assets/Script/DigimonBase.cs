@@ -15,10 +15,12 @@ public class DigimonBase : MonoBehaviour {
 	public float[] time_Unpooping;
 	public float[] time_Sleep;
 	public float[] time_Unsleep;
+	public int tirdeness;
 	public GameObject DayANight;
 	public CanvasGroup canvas1;
 	public CanvasGroup canvas2;
 	public CanvasGroup canvas3;
+	public CanvasGroup tirdeness_canvas;
 	float hour;
 	int counter_Is_Hunger;
 	int counter_IsNot_Hunger;
@@ -26,6 +28,7 @@ public class DigimonBase : MonoBehaviour {
 	int counter_IsNot_Pooping;
 	int counter_Is_Sleeping;
 	int counter_IsNot_Sleeping;
+	int tiredness_counter;
 	public int stomachSize;
 
 
@@ -35,6 +38,8 @@ public class DigimonBase : MonoBehaviour {
 		isPoop = false;
 		isSleep = false;
 		//time_Unhngery[time_Hunger];
+
+		tirdeness_canvas.alpha = 0;
 
 		for (int i =0; i < time_Hunger.Length; i++)
 		{
@@ -57,6 +62,7 @@ public class DigimonBase : MonoBehaviour {
 		counter_IsNot_Pooping = 0;
 		counter_Is_Sleeping = 0;
 		counter_IsNot_Sleeping = 0;
+		tiredness_counter = 1;
 
 	}
 	
@@ -186,5 +192,24 @@ public class DigimonBase : MonoBehaviour {
 			}
 		}
 
+		if (DayANight.GetComponent<DayAndNight> ().Hour > tiredness_counter) 
+		{
+			tirdeness +=5;
+			tiredness_counter ++;
+			if(tirdeness >= 100)
+			{
+				tirdeness = 100;
+			}
+
+			if(tirdeness < 80)
+			{
+				tirdeness_canvas.alpha = 0;
+			}
+			else
+				tirdeness_canvas.alpha = 1;
+
+		}
+
 	}
+
 }

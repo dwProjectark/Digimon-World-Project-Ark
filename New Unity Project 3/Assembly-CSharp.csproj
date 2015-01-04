@@ -95,6 +95,8 @@
      <Compile Include="Assets\Script\Partner_Stats.cs" />
      <Compile Include="Assets\Script\PickUpItem.cs" />
      <Compile Include="Assets\Script\Player_Menu_Stats_Button.cs" />
+     <Compile Include="Assets\Script\Resting.cs" />
+     <Compile Include="Assets\Script\Sleep.cs" />
      <Compile Include="Assets\Script\SlotScript.cs" />
      <Compile Include="Assets\Script\Traning.cs" />
      <Compile Include="Assets\Script\UseItemBoost.cs" />

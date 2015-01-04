@@ -28,6 +28,33 @@ public class Traning : MonoBehaviour {
 		{
 			if(Input.GetKeyDown(KeyCode.E))
 			{	
+				if(GameObject.FindGameObjectWithTag ("partner").GetComponent<DigimonBase> ().tirdeness == 100)
+				{
+					if(brains > 1)
+					{
+						brains = 1;
+					}
+					if(defense > 1)
+					{
+						defense = 1;
+					}
+					if(maxHp > 1)
+					{
+						maxHp = 1;
+					}
+					if(maxMp > 1)
+					{
+						maxMp = 1;
+					}
+					if(offence > 1)
+					{
+						offence = 1;
+					}
+					if(speed > 1)
+					{
+						speed = 1;
+					}
+				}
 				GameObject.FindGameObjectWithTag("partner").GetComponent<Digimon_Behaviour>().isBrains = true;
 				GameObject.FindGameObjectWithTag ("partner").GetComponent<Partner_Stats> ().Brains += brains;
 				GameObject.FindGameObjectWithTag ("partner").GetComponent<Partner_Stats> ().Defense += defense;
@@ -35,7 +62,8 @@ public class Traning : MonoBehaviour {
 				GameObject.FindGameObjectWithTag ("partner").GetComponent<Partner_Stats> ().MaxMp += maxMp;
 				GameObject.FindGameObjectWithTag ("partner").GetComponent<Partner_Stats> ().Offense += offence;
 				GameObject.FindGameObjectWithTag ("partner").GetComponent<Partner_Stats> ().Speed += speed;
-				DayANight.GetComponent<DayAndNight>().slider += 0.03f;
+				GameObject.FindGameObjectWithTag ("partner").GetComponent<DigimonBase> ().tirdeness += 5;
+				DayANight.GetComponent<DayAndNight>().slider += 0.042f;
 				player.GetComponent<player>().enabled = false;
 				player.GetComponent<LookAt>().enabled = true;
 
