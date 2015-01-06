@@ -17,7 +17,7 @@ public class DAY : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		hour = dayANight.GetComponent<DayAndNight> ().Hour;
+		hour = dayANight.GetComponent<DayAndNight> ().hour;
 		if (hour >0 && hour <0.1)
 		{
 			if (increased == true)

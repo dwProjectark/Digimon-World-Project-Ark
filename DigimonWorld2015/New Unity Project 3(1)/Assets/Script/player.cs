@@ -6,6 +6,7 @@ public class player : MonoBehaviour {
 	public AnimationClip walkAnimation;
 	public AnimationClip runAnimation;
 	public AnimationClip jumpPoseAnimation;
+	public AnimationClip Yes;
 	
 	public float walkMaxAnimationSpeed = 0.75F;
 	public float trotMaxAnimationSpeed = 1F;

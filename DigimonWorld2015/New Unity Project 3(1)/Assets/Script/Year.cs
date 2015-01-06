@@ -19,7 +19,8 @@ public class Year : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update () 
+	{
 		_Day = day.GetComponent<DAY> ().Day;
 		text1.text = year.ToString ();
 		if (_Day == 30*counter) 

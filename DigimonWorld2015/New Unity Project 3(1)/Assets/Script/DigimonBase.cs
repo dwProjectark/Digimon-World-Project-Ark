@@ -3,9 +3,39 @@ using System.Collections;
 
 public class DigimonBase : MonoBehaviour {
 	
-	public string Level;
-	public string Atrribute;
-	public string Element;
+	//Variables For Digmon Leve go Here
+	private string digimonlevel;
+
+	//Variables for Digimon Type
+	private string digimonType;
+
+	//Variables for Digimon Element go here
+	private string digimonElement;
+
+	// Declaring list for Digivolution Level
+	public enum Level
+	{
+		Fresh,Intraining,Rookie,Champion,Ultimate,Mega,Armor,SuperMega
+	}
+	public Level level;
+	
+	// Declaring list for Elements
+	public enum Element
+	{
+		Air,Battle,Darkness,Earth,Filth,Fire,Holy,Ice,Mech
+	}
+	public Element element;
+	
+	//Declaring List for Type
+	public enum Type
+	{
+		Virus,Data,Vaccine
+	}
+	public Type type;
+
+
+
+
 	public bool isHungry;
 	public bool isPoop;
 	public bool isSleep;
@@ -27,10 +57,20 @@ public class DigimonBase : MonoBehaviour {
 	int counter_Is_Sleeping;
 	int counter_IsNot_Sleeping;
 	public int stomachSize;
+
+
+
+
 	
 	
 	// Use this for initialization
-	void Start () {
+	void Start () 
+	{
+
+
+
+
+		// Declares
 		isHungry = false;
 		isPoop = false;
 		isSleep = false;
@@ -62,7 +102,7 @@ public class DigimonBase : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		hour = DayANight.GetComponent <DayAndNight>().Hour;
+		hour = DayANight.GetComponent <DayAndNight>().hour;
 		
 		if (time_Hunger[counter_Is_Hunger] <= hour&&time_Hunger[counter_Is_Hunger]< time_Unhngery[counter_IsNot_Hunger]&&hour < time_Hunger[time_Hunger.Length-1]+1&&stomachSize >0)
 		{
