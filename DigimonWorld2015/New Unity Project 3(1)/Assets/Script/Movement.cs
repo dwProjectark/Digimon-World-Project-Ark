@@ -13,8 +13,8 @@ public class Movement : MonoBehaviour {
 	void Start () {
 		Walk_Speed = intial_Walk_Speed;
 		Run_Speed = intial_Run_Speed;
-		Debug.Log (Walk_Speed);
-		Debug.Log (Run_Speed);
+		//Debug.Log ("Walking Speed: " + Walk_Speed);
+		//Debug.Log ("Running Speed: " + Run_Speed);
 	}
 	
 	// Update is called once per frame

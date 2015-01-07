@@ -176,7 +176,7 @@ public class DigimonBase : MonoBehaviour {
 			if(!isPoop)
 			{
 				canvas2.alpha = 0;
-				Debug.Log(counter_IsNot_Pooping);
+				//Debug.Log("Partner is not pooping" + counter_IsNot_Pooping);
 				if (counter_IsNot_Pooping+1 < time_Unpooping.Length)
 				{
 					counter_IsNot_Pooping ++;

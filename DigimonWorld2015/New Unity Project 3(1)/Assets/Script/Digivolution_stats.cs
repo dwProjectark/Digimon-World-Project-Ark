@@ -41,8 +41,7 @@ public class Digivolution_stats : MonoBehaviour {
 	public AnimationClip[] _anim;
 	
 	public GameObject partner;
-	
-	public GameObject dayAndNight;
+
 	public GameObject _Day;
 	
 	///these are partner stats?
@@ -74,7 +73,7 @@ public class Digivolution_stats : MonoBehaviour {
 		animation = GetComponent<Animation> ();
 		
 		//to reduce the GetComponent calls we use the new references created to hold the values
-		script_dayAndNight = dayAndNight.GetComponent<DayAndNight>();
+
 		partner_Stats = partner.GetComponent<Partner_Stats>();
 		scr_Hour = _Day.GetComponent<Hour>();
 		
@@ -84,7 +83,7 @@ public class Digivolution_stats : MonoBehaviour {
 	void Update () {
 		
 		//the getComponent sections here can now be replaced with their respective references.
-		hour = script_dayAndNight.hour;
+		hour = 1; //filler//hour = script_dayAndNight.hour;
 		ParBrains = partner_Stats.Brains;
 		ParCareMistakes = partner_Stats.CareMistakes;
 		ParDefense = partner_Stats.Defense;
@@ -95,7 +94,7 @@ public class Digivolution_stats : MonoBehaviour {
 		ParOffence = partner_Stats.Offense;
 		ParSpeed = partner_Stats.Speed;
 		ParWeight = partner_Stats.Weight;
-		day = scr_Hour.day;
+		day = 1;//day = scr_Hour.day;
 		
 		if(AgeInDay<=day&&AgeInHour<=hour&&ParBrains >=EvoBrains && ParCareMistakes >=EvoCareMistakes&&ParDefense>=EvoDefense&& ParDiscipline>=EvoDiscipline
 		   &&ParHappiness>=EvoHappiness&&ParMaxHP>=EvoMaxHP&&ParMaxMP>=EvoMaxMP&&ParOffence>=EvoOffense&&ParSpeed>=EvoSpeed&&ParWeight>=EvoWeight)
