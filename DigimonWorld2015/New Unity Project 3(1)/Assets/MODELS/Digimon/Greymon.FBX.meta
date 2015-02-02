@@ -131,12 +131,266 @@ ModelImporter:
     400122: Sky001
     400124: Tape001
     400126: Tape001.Target
+    2300000: Greymon
+    3300000: Greymon
     4300000: Greymon
     7400000: Idle
     7400002: Walking
     7400004: Running
+    7400006: Idle //// Tape001
+    7400008: Walking //// Tape001
+    7400010: Running //// Tape001
+    7400012: Idle //// Tape001.Target
+    7400014: Walking //// Tape001.Target
+    7400016: Running //// Tape001.Target
+    7400018: Idle //// Character001
+    7400020: Walking //// Character001
+    7400022: Running //// Character001
+    7400024: Idle //// CATRigHub002
+    7400026: Walking //// CATRigHub002
+    7400028: Running //// CATRigHub002
+    7400030: Idle //// CATRigLLeg1
+    7400032: Walking //// CATRigLLeg1
+    7400034: Running //// CATRigLLeg1
+    7400036: Idle //// CATRigLLeg2
+    7400038: Walking //// CATRigLLeg2
+    7400040: Running //// CATRigLLeg2
+    7400042: Idle //// CATRigLLeg3
+    7400044: Walking //// CATRigLLeg3
+    7400046: Running //// CATRigLLeg3
+    7400048: Idle //// CATRigLLegAnkle
+    7400050: Walking //// CATRigLLegAnkle
+    7400052: Running //// CATRigLLegAnkle
+    7400054: Idle //// CATRigLLegDigit11
+    7400056: Walking //// CATRigLLegDigit11
+    7400058: Running //// CATRigLLegDigit11
+    7400060: Idle //// CATRigLLegDigit12
+    7400062: Walking //// CATRigLLegDigit12
+    7400064: Running //// CATRigLLegDigit12
+    7400066: Idle //// CATRigLLegDigit13
+    7400068: Walking //// CATRigLLegDigit13
+    7400070: Running //// CATRigLLegDigit13
+    7400072: Idle //// CATRigRLeg1
+    7400074: Walking //// CATRigRLeg1
+    7400076: Running //// CATRigRLeg1
+    7400078: Idle //// CATRigRLeg2
+    7400080: Walking //// CATRigRLeg2
+    7400082: Running //// CATRigRLeg2
+    7400084: Idle //// CATRigRLeg3
+    7400086: Walking //// CATRigRLeg3
+    7400088: Running //// CATRigRLeg3
+    7400090: Idle //// CATRigRLegAnkle
+    7400092: Walking //// CATRigRLegAnkle
+    7400094: Running //// CATRigRLegAnkle
+    7400096: Idle //// CATRigRLegDigit11
+    7400098: Walking //// CATRigRLegDigit11
+    7400100: Running //// CATRigRLegDigit11
+    7400102: Idle //// CATRigRLegDigit12
+    7400104: Walking //// CATRigRLegDigit12
+    7400106: Running //// CATRigRLegDigit12
+    7400108: Idle //// CATRigRLegDigit13
+    7400110: Walking //// CATRigRLegDigit13
+    7400112: Running //// CATRigRLegDigit13
+    7400114: Idle //// CATRigSpineCATRigSpine1
+    7400116: Walking //// CATRigSpineCATRigSpine1
+    7400118: Running //// CATRigSpineCATRigSpine1
+    7400120: Idle //// CATRigSpine2
+    7400122: Walking //// CATRigSpine2
+    7400124: Running //// CATRigSpine2
+    7400126: Idle //// CATRigSpine3
+    7400128: Walking //// CATRigSpine3
+    7400130: Running //// CATRigSpine3
+    7400132: Idle //// CATRigHub003
+    7400134: Walking //// CATRigHub003
+    7400136: Running //// CATRigHub003
+    7400138: Idle //// CATRigLArmCollarbone
+    7400140: Walking //// CATRigLArmCollarbone
+    7400142: Running //// CATRigLArmCollarbone
+    7400144: Idle //// CATRigLArm1
+    7400146: Walking //// CATRigLArm1
+    7400148: Running //// CATRigLArm1
+    7400150: Idle //// CATRigLArm2
+    7400152: Walking //// CATRigLArm2
+    7400154: Running //// CATRigLArm2
+    7400156: Idle //// CATRigLArmPalm
+    7400158: Walking //// CATRigLArmPalm
+    7400160: Running //// CATRigLArmPalm
+    7400162: Idle //// CATRigLArmDigit11
+    7400164: Walking //// CATRigLArmDigit11
+    7400166: Running //// CATRigLArmDigit11
+    7400168: Idle //// CATRigLArmDigit12
+    7400170: Walking //// CATRigLArmDigit12
+    7400172: Running //// CATRigLArmDigit12
+    7400174: Idle //// CATRigLArmDigit21
+    7400176: Walking //// CATRigLArmDigit21
+    7400178: Running //// CATRigLArmDigit21
+    7400180: Idle //// CATRigLArmDigit22
+    7400182: Walking //// CATRigLArmDigit22
+    7400184: Running //// CATRigLArmDigit22
+    7400186: Idle //// Megaton Punch
+    7400188: Walking //// Megaton Punch
+    7400190: Running //// Megaton Punch
+    7400192: Idle //// CATRigLArmDigit31
+    7400194: Walking //// CATRigLArmDigit31
+    7400196: Running //// CATRigLArmDigit31
+    7400198: Idle //// CATRigLArmDigit32
+    7400200: Walking //// CATRigLArmDigit32
+    7400202: Running //// CATRigLArmDigit32
+    7400204: Idle //// CATRigRArmCollarbone
+    7400206: Walking //// CATRigRArmCollarbone
+    7400208: Running //// CATRigRArmCollarbone
+    7400210: Idle //// CATRigRArm1
+    7400212: Walking //// CATRigRArm1
+    7400214: Running //// CATRigRArm1
+    7400216: Idle //// CATRigRArm2
+    7400218: Walking //// CATRigRArm2
+    7400220: Running //// CATRigRArm2
+    7400222: Idle //// CATRigRArmPalm
+    7400224: Walking //// CATRigRArmPalm
+    7400226: Running //// CATRigRArmPalm
+    7400228: Idle //// CATRigRArmDigit11
+    7400230: Walking //// CATRigRArmDigit11
+    7400232: Running //// CATRigRArmDigit11
+    7400234: Idle //// CATRigRArmDigit12
+    7400236: Walking //// CATRigRArmDigit12
+    7400238: Running //// CATRigRArmDigit12
+    7400240: Idle //// CATRigRArmDigit21
+    7400242: Walking //// CATRigRArmDigit21
+    7400244: Running //// CATRigRArmDigit21
+    7400246: Idle //// CATRigRArmDigit22
+    7400248: Walking //// CATRigRArmDigit22
+    7400250: Running //// CATRigRArmDigit22
+    7400252: Idle //// CATRigRArmDigit31
+    7400254: Walking //// CATRigRArmDigit31
+    7400256: Running //// CATRigRArmDigit31
+    7400258: Idle //// CATRigRArmDigit32
+    7400260: Walking //// CATRigRArmDigit32
+    7400262: Running //// CATRigRArmDigit32
+    7400264: Idle //// Punch
+    7400266: Walking //// Punch
+    7400268: Running //// Punch
+    7400270: Idle //// CATRigSpineCATRigSpine1 1
+    7400272: Walking //// CATRigSpineCATRigSpine1 1
+    7400274: Running //// CATRigSpineCATRigSpine1 1
+    7400276: Idle //// CATRigSpine2 1
+    7400278: Walking //// CATRigSpine2 1
+    7400280: Running //// CATRigSpine2 1
+    7400282: Idle //// CATRigHub004
+    7400284: Walking //// CATRigHub004
+    7400286: Running //// CATRigHub004
+    7400288: Idle //// Dive
+    7400290: Walking //// Dive
+    7400292: Running //// Dive
+    7400294: Idle //// CATRig2Bone001
+    7400296: Walking //// CATRig2Bone001
+    7400298: Running //// CATRig2Bone001
+    7400300: Idle //// Projectile
+    7400302: Walking //// Projectile
+    7400304: Running //// Projectile
+    7400306: Idle //// Eat
+    7400308: Walking //// Eat
+    7400310: Running //// Eat
+    7400312: Idle //// CATRigTail1
+    7400314: Walking //// CATRigTail1
+    7400316: Running //// CATRigTail1
+    7400318: Idle //// CATRigTail2
+    7400320: Walking //// CATRigTail2
+    7400322: Running //// CATRigTail2
+    7400324: Idle //// CATRigTail3
+    7400326: Walking //// CATRigTail3
+    7400328: Running //// CATRigTail3
+    7400330: Idle //// CATRigTail4
+    7400332: Walking //// CATRigTail4
+    7400334: Running //// CATRigTail4
+    7400336: Idle //// CATRigLLegUpVectorNode
+    7400338: Walking //// CATRigLLegUpVectorNode
+    7400340: Running //// CATRigLLegUpVectorNode
+    7400342: Idle //// CATRigRLegUpVectorNode
+    7400344: Walking //// CATRigRLegUpVectorNode
+    7400346: Running //// CATRigRLegUpVectorNode
+    7400348: Idle //// CATRigLLegPlatform
+    7400350: Walking //// CATRigLLegPlatform
+    7400352: Running //// CATRigLLegPlatform
+    7400354: Idle //// CATRigRLegPlatform
+    7400356: Walking //// CATRigRLegPlatform
+    7400358: Running //// CATRigRLegPlatform
+    7400360: Idle //// CATRigRArmIKTarget
+    7400362: Walking //// CATRigRArmIKTarget
+    7400364: Running //// CATRigRArmIKTarget
+    7400366: Idle //// CATRigLArmIKTarget
+    7400368: Walking //// CATRigLArmIKTarget
+    7400370: Running //// CATRigLArmIKTarget
+    7400372: Idle //// Greymon
+    7400374: Walking //// Greymon
+    7400376: Running //// Greymon
+    7400378: Idle //// Sky001
+    7400380: Walking //// Sky001
+    7400382: Running //// Sky001
     9500000: //RootNode
     11100000: //RootNode
+    11100002: CATRig2Bone001
+    11100004: CATRigHub002
+    11100006: CATRigHub003
+    11100008: CATRigHub004
+    11100010: CATRigLArm1
+    11100012: CATRigLArm2
+    11100014: CATRigLArmCollarbone
+    11100016: CATRigLArmDigit11
+    11100018: CATRigLArmDigit12
+    11100020: CATRigLArmDigit21
+    11100022: CATRigLArmDigit22
+    11100024: CATRigLArmDigit31
+    11100026: CATRigLArmDigit32
+    11100028: CATRigLArmIKTarget
+    11100030: CATRigLArmPalm
+    11100032: CATRigLLeg1
+    11100034: CATRigLLeg2
+    11100036: CATRigLLeg3
+    11100038: CATRigLLegAnkle
+    11100040: CATRigLLegDigit11
+    11100042: CATRigLLegDigit12
+    11100044: CATRigLLegDigit13
+    11100046: CATRigLLegPlatform
+    11100048: CATRigLLegUpVectorNode
+    11100050: CATRigRArm1
+    11100052: CATRigRArm2
+    11100054: CATRigRArmCollarbone
+    11100056: CATRigRArmDigit11
+    11100058: CATRigRArmDigit12
+    11100060: CATRigRArmDigit21
+    11100062: CATRigRArmDigit22
+    11100064: CATRigRArmDigit31
+    11100066: CATRigRArmDigit32
+    11100068: CATRigRArmIKTarget
+    11100070: CATRigRArmPalm
+    11100072: CATRigRLeg1
+    11100074: CATRigRLeg2
+    11100076: CATRigRLeg3
+    11100078: CATRigRLegAnkle
+    11100080: CATRigRLegDigit11
+    11100082: CATRigRLegDigit12
+    11100084: CATRigRLegDigit13
+    11100086: CATRigRLegPlatform
+    11100088: CATRigRLegUpVectorNode
+    11100090: CATRigSpine2
+    11100092: CATRigSpine2 1
+    11100094: CATRigSpine3
+    11100096: CATRigSpineCATRigSpine1
+    11100098: CATRigSpineCATRigSpine1 1
+    11100100: CATRigTail1
+    11100102: CATRigTail2
+    11100104: CATRigTail3
+    11100106: CATRigTail4
+    11100108: Character001
+    11100110: Dive
+    11100112: Eat
+    11100114: Greymon
+    11100116: Megaton Punch
+    11100118: Projectile
+    11100120: Punch
+    11100122: Sky001
+    11100124: Tape001
+    11100126: Tape001.Target
     13700000: Greymon
   materials:
     importMaterials: 1

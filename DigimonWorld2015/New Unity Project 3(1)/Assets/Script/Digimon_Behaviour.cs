@@ -15,7 +15,7 @@ public class Digimon_Behaviour : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		_player = GameObject.FindGameObjectWithTag("Player").transform;
-		speed = player.GetComponent<player> ().walkSpeed;
+		speed = player.GetComponent<player> ().runSpeed;
 
 		_animation = GetComponent<Animation> ();
 		//curr_speed = speed;

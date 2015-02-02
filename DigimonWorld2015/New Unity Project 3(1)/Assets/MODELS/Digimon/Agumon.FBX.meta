@@ -101,6 +101,8 @@ ModelImporter:
     400092: CATRigSpine3
     400094: CATRigSpineCATRigSpine1
     400096: CATRigSpineCATRigSpine1 1
+    2300000: Agumon
+    3300000: Agumon
     4300000: Agumon
     7400000: Idle
     7400002: Walk
@@ -280,7 +282,7 @@ ModelImporter:
       takeName: Take 001
       firstFrame: 60
       lastFrame: 121
-      wrapMode: 0
+      wrapMode: 2
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
@@ -408,7 +410,7 @@ ModelImporter:
       takeName: Take 001
       firstFrame: 122
       lastFrame: 152
-      wrapMode: 0
+      wrapMode: 2
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
@@ -1048,7 +1050,7 @@ ModelImporter:
       takeName: Take 001
       firstFrame: 397
       lastFrame: 426
-      wrapMode: 0
+      wrapMode: 2
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
@@ -1304,7 +1306,7 @@ ModelImporter:
       takeName: Take 001
       firstFrame: 488
       lastFrame: 548
-      wrapMode: 0
+      wrapMode: 2
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
@@ -1432,7 +1434,7 @@ ModelImporter:
       takeName: Take 001
       firstFrame: 549
       lastFrame: 609
-      wrapMode: 0
+      wrapMode: 2
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
@@ -1560,7 +1562,7 @@ ModelImporter:
       takeName: Take 001
       firstFrame: 610
       lastFrame: 670
-      wrapMode: 0
+      wrapMode: 2
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
@@ -1688,7 +1690,7 @@ ModelImporter:
       takeName: Take 001
       firstFrame: 671
       lastFrame: 731
-      wrapMode: 0
+      wrapMode: 2
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
@@ -1816,7 +1818,7 @@ ModelImporter:
       takeName: Take 001
       firstFrame: 732
       lastFrame: 792
-      wrapMode: 0
+      wrapMode: 2
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
@@ -2200,7 +2202,7 @@ ModelImporter:
       takeName: Take 001
       firstFrame: 833
       lastFrame: 833.099976
-      wrapMode: 0
+      wrapMode: 2
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
@@ -2712,7 +2714,7 @@ ModelImporter:
       takeName: Take 001
       firstFrame: 944
       lastFrame: 944.099976
-      wrapMode: 0
+      wrapMode: 2
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
@@ -3352,7 +3354,7 @@ ModelImporter:
       takeName: Take 001
       firstFrame: -91
       lastFrame: -61
-      wrapMode: 0
+      wrapMode: 2
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
