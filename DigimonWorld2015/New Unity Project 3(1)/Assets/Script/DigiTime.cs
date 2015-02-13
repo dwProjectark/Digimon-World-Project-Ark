@@ -85,7 +85,6 @@ public class DigiTime : MonoBehaviour
 			pauseSecond = second;
 
 		hour = 0;
-		int negativeHour;
 		//for partner stuff
 
 
@@ -104,7 +103,7 @@ public class DigiTime : MonoBehaviour
 				second = pauseSecond;
 			}
 
-			if (Input.GetKeyDown(KeyCode.D))
+			if (Input.GetKeyDown(KeyCode.P))
 			{
 			timepuase = true;
 			}

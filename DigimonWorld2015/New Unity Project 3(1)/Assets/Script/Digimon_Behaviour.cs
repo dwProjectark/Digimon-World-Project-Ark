@@ -6,8 +6,7 @@ public class Digimon_Behaviour : MonoBehaviour {
 
 	 Transform _player;
 	float walk_speed;
-	public AnimationClip[] anim;
-	 Animation _animation;
+	
 	NavMeshAgent nav;
 	public GameObject player;
 	float speed;
@@ -17,7 +16,6 @@ public class Digimon_Behaviour : MonoBehaviour {
 		_player = GameObject.FindGameObjectWithTag("Player").transform;
 		speed = player.GetComponent<player> ().runSpeed;
 
-		_animation = GetComponent<Animation> ();
 		//curr_speed = speed;
 		nav = GetComponent<NavMeshAgent> ();
 	}
@@ -29,13 +27,12 @@ public class Digimon_Behaviour : MonoBehaviour {
 
 		if(Vector3.Distance(transform.position,_player.position)> nav.stoppingDistance )
 		{
-			_animation[anim[1].name].speed = speed;
-			_animation.CrossFade(anim[1].name);
+			animation.Play("Run");
 			nav.SetDestination(_player.position);
 		}
 		else 
 		{
-			_animation.CrossFade(anim[0].name);
+			animation.Play("Idle");
 		}
 
 

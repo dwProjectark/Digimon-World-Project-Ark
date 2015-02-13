@@ -504,7 +504,7 @@ public class Partner_Stats : MonoBehaviour {
 			lives=3;
 		}
 
-		if(Input.GetKeyDown(KeyCode.A))
+		if(Input.GetKeyDown(KeyCode.K))
 		{
 			lives--;
 		}

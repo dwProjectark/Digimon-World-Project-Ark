@@ -46,7 +46,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\DayNightCycle\TOD\TOD.js" />
      <Compile Include="Assets\Inventory\Scripts\Character.js" />
      <Compile Include="Assets\Inventory\Scripts\Inventory.js" />
      <Compile Include="Assets\Inventory\Scripts\InventoryDisplay.js" />
@@ -60,9 +59,9 @@
      <Compile Include="Assets\Inventory\Scripts\Other\WeaponSwitch.js" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\RAIN\Editor\Shaders\AspectSphereShader.shader" />
-     <None Include="Assets\DayNightCycle\TOD\shader\SkyboxBlend.shader" />
      <None Include="Assets\Inventory\Credits + C#.txt" />
      <None Include="Assets\RAIN\Editor\Shaders\VisualSensorLineShader.shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\RAIN\Editor\Shaders\NavMeshContourShader.shader" />
      <None Include="Assets\RAIN\Editor\Shaders\WaypointShader.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
@@ -70,22 +69,21 @@
      <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
-     <None Include="Assets\Fantasy Skybox FREE\Readme\Readme.txt" />
      <None Include="Assets\RAIN\Editor\Shaders\VisualSensorRingShader.shader" />
      <None Include="Assets\RAIN\ReleaseNotes.txt" />
      <None Include="Assets\RAIN\Editor\Shaders\AspectRingShader.shader" />
      <None Include="Assets\RAIN\Editor\Shaders\NavMeshColliderShader.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/Digimon Game/Documents/unityproject/DigimonGame/Digimon-World-Project-Ark/DigimonWorld2015/New Unity Project 3(1)/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/Users/Digimon Game/Documents/unityproject/DigimonGame/FinalGithub/Digimon-World-Project-Ark/DigimonWorld2015/New Unity Project 3(1)/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.2/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="RAIN">
- <HintPath>C:/Users/Digimon Game/Documents/unityproject/DigimonGame/Digimon-World-Project-Ark/DigimonWorld2015/New Unity Project 3(1)/Assets/RAIN/RAIN.dll</HintPath>
+ <HintPath>C:/Users/Digimon Game/Documents/unityproject/DigimonGame/FinalGithub/Digimon-World-Project-Ark/DigimonWorld2015/New Unity Project 3(1)/Assets/RAIN/RAIN.dll</HintPath>
  </Reference>
  <Reference Include="RAINMetaform">
- <HintPath>C:/Users/Digimon Game/Documents/unityproject/DigimonGame/Digimon-World-Project-Ark/DigimonWorld2015/New Unity Project 3(1)/Assets/RAIN/RAINMetaform.dll</HintPath>
+ <HintPath>C:/Users/Digimon Game/Documents/unityproject/DigimonGame/FinalGithub/Digimon-World-Project-Ark/DigimonWorld2015/New Unity Project 3(1)/Assets/RAIN/RAINMetaform.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

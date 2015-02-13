@@ -51,9 +51,9 @@
      <Compile Include="Assets\RAIN\Editor\ScriptTemplates\DecisionTemplate_JS.js" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\RAIN\Editor\Shaders\AspectSphereShader.shader" />
-     <None Include="Assets\DayNightCycle\TOD\shader\SkyboxBlend.shader" />
      <None Include="Assets\Inventory\Credits + C#.txt" />
      <None Include="Assets\RAIN\Editor\Shaders\VisualSensorLineShader.shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\RAIN\Editor\Shaders\NavMeshContourShader.shader" />
      <None Include="Assets\RAIN\Editor\Shaders\WaypointShader.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
@@ -61,7 +61,6 @@
      <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
-     <None Include="Assets\Fantasy Skybox FREE\Readme\Readme.txt" />
      <None Include="Assets\RAIN\Editor\Shaders\VisualSensorRingShader.shader" />
      <None Include="Assets\RAIN\ReleaseNotes.txt" />
      <None Include="Assets\RAIN\Editor\Shaders\AspectRingShader.shader" />
@@ -73,25 +72,25 @@
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.2/Editor/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="RAIN">
- <HintPath>C:/Users/Digimon Game/Documents/unityproject/DigimonGame/Digimon-World-Project-Ark/DigimonWorld2015/New Unity Project 3(1)/Assets/RAIN/RAIN.dll</HintPath>
+ <HintPath>C:/Users/Digimon Game/Documents/unityproject/DigimonGame/FinalGithub/Digimon-World-Project-Ark/DigimonWorld2015/New Unity Project 3(1)/Assets/RAIN/RAIN.dll</HintPath>
  </Reference>
  <Reference Include="RAINMetaform">
- <HintPath>C:/Users/Digimon Game/Documents/unityproject/DigimonGame/Digimon-World-Project-Ark/DigimonWorld2015/New Unity Project 3(1)/Assets/RAIN/RAINMetaform.dll</HintPath>
+ <HintPath>C:/Users/Digimon Game/Documents/unityproject/DigimonGame/FinalGithub/Digimon-World-Project-Ark/DigimonWorld2015/New Unity Project 3(1)/Assets/RAIN/RAINMetaform.dll</HintPath>
  </Reference>
  <Reference Include="AetherUnity">
- <HintPath>C:/Users/Digimon Game/Documents/unityproject/DigimonGame/Digimon-World-Project-Ark/DigimonWorld2015/New Unity Project 3(1)/Assets/RAIN/Editor/AetherUnity.dll</HintPath>
+ <HintPath>C:/Users/Digimon Game/Documents/unityproject/DigimonGame/FinalGithub/Digimon-World-Project-Ark/DigimonWorld2015/New Unity Project 3(1)/Assets/RAIN/Editor/AetherUnity.dll</HintPath>
  </Reference>
  <Reference Include="LegionRestModel">
- <HintPath>C:/Users/Digimon Game/Documents/unityproject/DigimonGame/Digimon-World-Project-Ark/DigimonWorld2015/New Unity Project 3(1)/Assets/RAIN/Editor/LegionRestModel.dll</HintPath>
+ <HintPath>C:/Users/Digimon Game/Documents/unityproject/DigimonGame/FinalGithub/Digimon-World-Project-Ark/DigimonWorld2015/New Unity Project 3(1)/Assets/RAIN/Editor/LegionRestModel.dll</HintPath>
  </Reference>
  <Reference Include="RAINEditor">
- <HintPath>C:/Users/Digimon Game/Documents/unityproject/DigimonGame/Digimon-World-Project-Ark/DigimonWorld2015/New Unity Project 3(1)/Assets/RAIN/Editor/RAINEditor.dll</HintPath>
+ <HintPath>C:/Users/Digimon Game/Documents/unityproject/DigimonGame/FinalGithub/Digimon-World-Project-Ark/DigimonWorld2015/New Unity Project 3(1)/Assets/RAIN/Editor/RAINEditor.dll</HintPath>
  </Reference>
  <Reference Include="RAINMetaformEditor">
- <HintPath>C:/Users/Digimon Game/Documents/unityproject/DigimonGame/Digimon-World-Project-Ark/DigimonWorld2015/New Unity Project 3(1)/Assets/RAIN/Editor/RAINMetaformEditor.dll</HintPath>
+ <HintPath>C:/Users/Digimon Game/Documents/unityproject/DigimonGame/FinalGithub/Digimon-World-Project-Ark/DigimonWorld2015/New Unity Project 3(1)/Assets/RAIN/Editor/RAINMetaformEditor.dll</HintPath>
  </Reference>
  <Reference Include="RAINUpdater">
- <HintPath>C:/Users/Digimon Game/Documents/unityproject/DigimonGame/Digimon-World-Project-Ark/DigimonWorld2015/New Unity Project 3(1)/Assets/RAIN/Editor/RAINUpdater.dll</HintPath>
+ <HintPath>C:/Users/Digimon Game/Documents/unityproject/DigimonGame/FinalGithub/Digimon-World-Project-Ark/DigimonWorld2015/New Unity Project 3(1)/Assets/RAIN/Editor/RAINUpdater.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
@@ -102,6 +101,8 @@
       <Project>{0AE186C5-9530-0D48-8ABE-027E794B188C}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
       <Project>{AF53E2D4-91B3-2D76-ABB7-F3B4ABB8D90D}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{C2BEFC66-766D-6A96-8366-56285D43D7CF}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript.unityproj">
       <Project>{23E36B4F-D10B-4BAB-E77A-3C6E26C75090}</Project>      <Name>Assembly-UnityScript</Name>    </ProjectReference>
   </ItemGroup>
