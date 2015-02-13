@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+﻿/*using UnityEngine;
 using System.Collections;
 
 public class Digivolution_stats : MonoBehaviour {
@@ -81,19 +81,19 @@ public class Digivolution_stats : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+
 		//the getComponent sections here can now be replaced with their respective references.
 		hour = 1; //filler//hour = script_dayAndNight.hour;
-		ParBrains = partner_Stats.Brains;
-		ParCareMistakes = partner_Stats.CareMistakes;
-		ParDefense = partner_Stats.Defense;
-		ParDiscipline = partner_Stats.Discipline;
-		ParHappiness = partner_Stats.Happiness;
-		ParMaxHP = partner_Stats.MaxHp;
-		ParMaxMP = partner_Stats.MaxMp;
-		ParOffence = partner_Stats.Offense;
-		ParSpeed = partner_Stats.Speed;
-		ParWeight = partner_Stats.Weight;
+		ParBrains = partner_Stats.brains;
+		ParCareMistakes = partner_Stats.careMistakes;
+		ParDefense = partner_Stats.defense;
+		ParDiscipline = partner_Stats.discipline;
+		ParHappiness = partner_Stats.happiness;
+		ParMaxHP = partner_Stats.maxHp;
+		ParMaxMP = partner_Stats.maxMp;
+		ParOffence = partner_Stats.offense;
+		ParSpeed = partner_Stats.speed;
+		ParWeight = partner_Stats.weight;
 		day = 1;//day = scr_Hour.day;
 		
 		if(AgeInDay<=day&&AgeInHour<=hour&&ParBrains >=EvoBrains && ParCareMistakes >=EvoCareMistakes&&ParDefense>=EvoDefense&& ParDiscipline>=EvoDiscipline
@@ -146,3 +146,4 @@ public class Digivolution_stats : MonoBehaviour {
 	}
 	
 }
+*/

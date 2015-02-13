@@ -1,11 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Movement.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\DigiTime.cs">
     <Files>
-      <File FileName="Assets\Script\Movement.cs" Line="17" Column="5" />
-      <File FileName="Assets\Script\Digivolution_stats.cs" Line="83" Column="18" />
-      <File FileName="Assets\Script\DigimonBase.cs" Line="179" Column="7" />
-      <File FileName="Assets\Script\player.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\Partner_Stats.cs" Line="201" Column="4" />
+      <File FileName="Assets\evolutionTest.cs" Line="137" Column="3" />
+      <File FileName="Assets\GameMode.cs" Line="53" Column="43" />
+      <File FileName="Assets\BattleAi.cs" Line="1" Column="1" />
+      <File FileName="Assets\DigiTime.cs" Line="21" Column="2" />
+      <File FileName="Assets\Script\DigimonBase.cs" Line="217" Column="4" />
+      <File FileName="c:\Users\Digimon Game\Documents\unityproject\DigimonGame\Digimon-World-Project-Ark\DigimonWorld2015\New Unity Project 3(1)\Assets\Script\UseItemBoost.cs" Line="36" Column="95" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -130,19 +130,223 @@ ModelImporter:
     7400046: Projectile
     7400048: Eat
     7400050: Push
+    7400052: Idle //// CATRigHub002
+    7400054: Walk //// CATRigHub002
+    7400056: Run //// CATRigHub002
+    7400058: Yes //// CATRigHub002
+    7400060: No //// CATRigHub002
+    7400062: Poop //// CATRigHub002
+    7400064: Sleep //// CATRigHub002
+    7400066: SleepIdle //// CATRigHub002
+    7400068: Discipline //// CATRigHub002
+    7400070: Hungry //// CATRigHub002
+    7400072: Dazed //// CATRigHub002
+    7400074: Charge //// CATRigHub002
+    7400076: Defend //// CATRigHub002
+    7400078: Tired //// CATRigHub002
+    7400080: KnockDownFront //// CATRigHub002
+    7400082: KoFront //// CATRigHub002
+    7400084: KoFrontIdle //// CATRigHub002
+    7400086: KoFrontRevive //// CATRigHub002
+    7400088: KnockDownBack //// CATRigHub002
+    7400090: KoBack //// CATRigHub002
+    7400092: KoBackIdle //// CATRigHub002
+    7400094: KoBackRevive //// CATRigHub002
+    7400096: Punch //// CATRigHub002
+    7400098: Projectile //// CATRigHub002
+    7400100: Eat //// CATRigHub002
+    7400102: Push //// CATRigHub002
+    7400104: Idle //// CATRigLLegPlatform
+    7400106: Walk //// CATRigLLegPlatform
+    7400108: Run //// CATRigLLegPlatform
+    7400110: Yes //// CATRigLLegPlatform
+    7400112: No //// CATRigLLegPlatform
+    7400114: Poop //// CATRigLLegPlatform
+    7400116: Sleep //// CATRigLLegPlatform
+    7400118: SleepIdle //// CATRigLLegPlatform
+    7400120: Discipline //// CATRigLLegPlatform
+    7400122: Hungry //// CATRigLLegPlatform
+    7400124: Dazed //// CATRigLLegPlatform
+    7400126: Charge //// CATRigLLegPlatform
+    7400128: Defend //// CATRigLLegPlatform
+    7400130: Tired //// CATRigLLegPlatform
+    7400132: KnockDownFront //// CATRigLLegPlatform
+    7400134: KoFront //// CATRigLLegPlatform
+    7400136: KoFrontIdle //// CATRigLLegPlatform
+    7400138: KoFrontRevive //// CATRigLLegPlatform
+    7400140: KnockDownBack //// CATRigLLegPlatform
+    7400142: KoBack //// CATRigLLegPlatform
+    7400144: KoBackIdle //// CATRigLLegPlatform
+    7400146: KoBackRevive //// CATRigLLegPlatform
+    7400148: Punch //// CATRigLLegPlatform
+    7400150: Projectile //// CATRigLLegPlatform
+    7400152: Eat //// CATRigLLegPlatform
+    7400154: Push //// CATRigLLegPlatform
+    7400156: Idle //// CATRigRLegPlatform
+    7400158: Walk //// CATRigRLegPlatform
+    7400160: Run //// CATRigRLegPlatform
+    7400162: Yes //// CATRigRLegPlatform
+    7400164: No //// CATRigRLegPlatform
+    7400166: Poop //// CATRigRLegPlatform
+    7400168: Sleep //// CATRigRLegPlatform
+    7400170: SleepIdle //// CATRigRLegPlatform
+    7400172: Discipline //// CATRigRLegPlatform
+    7400174: Hungry //// CATRigRLegPlatform
+    7400176: Dazed //// CATRigRLegPlatform
+    7400178: Charge //// CATRigRLegPlatform
+    7400180: Defend //// CATRigRLegPlatform
+    7400182: Tired //// CATRigRLegPlatform
+    7400184: KnockDownFront //// CATRigRLegPlatform
+    7400186: KoFront //// CATRigRLegPlatform
+    7400188: KoFrontIdle //// CATRigRLegPlatform
+    7400190: KoFrontRevive //// CATRigRLegPlatform
+    7400192: KnockDownBack //// CATRigRLegPlatform
+    7400194: KoBack //// CATRigRLegPlatform
+    7400196: KoBackIdle //// CATRigRLegPlatform
+    7400198: KoBackRevive //// CATRigRLegPlatform
+    7400200: Punch //// CATRigRLegPlatform
+    7400202: Projectile //// CATRigRLegPlatform
+    7400204: Eat //// CATRigRLegPlatform
+    7400206: Push //// CATRigRLegPlatform
+    7400208: Idle //// CATRigLArmIKTarget
+    7400210: Walk //// CATRigLArmIKTarget
+    7400212: Run //// CATRigLArmIKTarget
+    7400214: Yes //// CATRigLArmIKTarget
+    7400216: No //// CATRigLArmIKTarget
+    7400218: Poop //// CATRigLArmIKTarget
+    7400220: Sleep //// CATRigLArmIKTarget
+    7400222: SleepIdle //// CATRigLArmIKTarget
+    7400224: Discipline //// CATRigLArmIKTarget
+    7400226: Hungry //// CATRigLArmIKTarget
+    7400228: Dazed //// CATRigLArmIKTarget
+    7400230: Charge //// CATRigLArmIKTarget
+    7400232: Defend //// CATRigLArmIKTarget
+    7400234: Tired //// CATRigLArmIKTarget
+    7400236: KnockDownFront //// CATRigLArmIKTarget
+    7400238: KoFront //// CATRigLArmIKTarget
+    7400240: KoFrontIdle //// CATRigLArmIKTarget
+    7400242: KoFrontRevive //// CATRigLArmIKTarget
+    7400244: KnockDownBack //// CATRigLArmIKTarget
+    7400246: KoBack //// CATRigLArmIKTarget
+    7400248: KoBackIdle //// CATRigLArmIKTarget
+    7400250: KoBackRevive //// CATRigLArmIKTarget
+    7400252: Punch //// CATRigLArmIKTarget
+    7400254: Projectile //// CATRigLArmIKTarget
+    7400256: Eat //// CATRigLArmIKTarget
+    7400258: Push //// CATRigLArmIKTarget
+    7400260: Idle //// CATRigRArmIKTarget
+    7400262: Walk //// CATRigRArmIKTarget
+    7400264: Run //// CATRigRArmIKTarget
+    7400266: Yes //// CATRigRArmIKTarget
+    7400268: No //// CATRigRArmIKTarget
+    7400270: Poop //// CATRigRArmIKTarget
+    7400272: Sleep //// CATRigRArmIKTarget
+    7400274: SleepIdle //// CATRigRArmIKTarget
+    7400276: Discipline //// CATRigRArmIKTarget
+    7400278: Hungry //// CATRigRArmIKTarget
+    7400280: Dazed //// CATRigRArmIKTarget
+    7400282: Charge //// CATRigRArmIKTarget
+    7400284: Defend //// CATRigRArmIKTarget
+    7400286: Tired //// CATRigRArmIKTarget
+    7400288: KnockDownFront //// CATRigRArmIKTarget
+    7400290: KoFront //// CATRigRArmIKTarget
+    7400292: KoFrontIdle //// CATRigRArmIKTarget
+    7400294: KoFrontRevive //// CATRigRArmIKTarget
+    7400296: KnockDownBack //// CATRigRArmIKTarget
+    7400298: KoBack //// CATRigRArmIKTarget
+    7400300: KoBackIdle //// CATRigRArmIKTarget
+    7400302: KoBackRevive //// CATRigRArmIKTarget
+    7400304: Punch //// CATRigRArmIKTarget
+    7400306: Projectile //// CATRigRArmIKTarget
+    7400308: Eat //// CATRigRArmIKTarget
+    7400310: Push //// CATRigRArmIKTarget
+    7400312: Idle //// Agumon
+    7400314: Walk //// Agumon
+    7400316: Run //// Agumon
+    7400318: Yes //// Agumon
+    7400320: No //// Agumon
+    7400322: Poop //// Agumon
+    7400324: Sleep //// Agumon
+    7400326: SleepIdle //// Agumon
+    7400328: Discipline //// Agumon
+    7400330: Hungry //// Agumon
+    7400332: Dazed //// Agumon
+    7400334: Charge //// Agumon
+    7400336: Defend //// Agumon
+    7400338: Tired //// Agumon
+    7400340: KnockDownFront //// Agumon
+    7400342: KoFront //// Agumon
+    7400344: KoFrontIdle //// Agumon
+    7400346: KoFrontRevive //// Agumon
+    7400348: KnockDownBack //// Agumon
+    7400350: KoBack //// Agumon
+    7400352: KoBackIdle //// Agumon
+    7400354: KoBackRevive //// Agumon
+    7400356: Punch //// Agumon
+    7400358: Projectile //// Agumon
+    7400360: Eat //// Agumon
+    7400362: Push //// Agumon
     9500000: //RootNode
     11100000: //RootNode
+    11100002: Agumon
+    11100004: CATRigHub002
+    11100006: CATRigHub003
+    11100008: CATRigHub004
+    11100010: CATRigHub004Bone001
+    11100012: CATRigLArm1
+    11100014: CATRigLArm2
+    11100016: CATRigLArmCollarbone
+    11100018: CATRigLArmDigit11
+    11100020: CATRigLArmDigit12
+    11100022: CATRigLArmDigit13
+    11100024: CATRigLArmDigit21
+    11100026: CATRigLArmDigit22
+    11100028: CATRigLArmDigit61
+    11100030: CATRigLArmDigit62
+    11100032: CATRigLArmIKTarget
+    11100034: CATRigLArmPalm
+    11100036: CATRigLLeg1
+    11100038: CATRigLLeg2
+    11100040: CATRigLLegAnkle
+    11100042: CATRigLLegDigit11
+    11100044: CATRigLLegDigit12
+    11100046: CATRigLLegPlatform
+    11100048: CATRigLLegUpVectorNode
+    11100050: CATRigRArm1
+    11100052: CATRigRArm2
+    11100054: CATRigRArmCollarbone
+    11100056: CATRigRArmDigit11
+    11100058: CATRigRArmDigit12
+    11100060: CATRigRArmDigit13
+    11100062: CATRigRArmDigit21
+    11100064: CATRigRArmDigit22
+    11100066: CATRigRArmDigit61
+    11100068: CATRigRArmDigit62
+    11100070: CATRigRArmIKTarget
+    11100072: CATRigRArmPalm
+    11100074: CATRigRLeg1
+    11100076: CATRigRLeg2
+    11100078: CATRigRLegAnkle
+    11100080: CATRigRLegDigit11
+    11100082: CATRigRLegDigit12
+    11100084: CATRigRLegPlatform
+    11100086: CATRigRLegUpVectorNode
+    11100088: CATRigSpine2
+    11100090: CATRigSpine2 1
+    11100092: CATRigSpine3
+    11100094: CATRigSpineCATRigSpine1
+    11100096: CATRigSpineCATRigSpine1 1
     13700000: Agumon
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
   animations:
-    legacyGenerateAnimations: 4
+    legacyGenerateAnimations: 1
     bakeSimulation: 0
     optimizeGameObjects: 0
     motionNodeName: 
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: .5
     animationPositionError: .5
     animationScaleError: .5
@@ -3499,7 +3703,7 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 1
   importAnimation: 1
-  copyAvatar: 0
+  copyAvatar: 1
   humanDescription:
     human: []
     skeleton: []
@@ -3512,6 +3716,6 @@ ModelImporter:
     feetSpacing: 0
     rootMotionBoneName: 
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 1
+  animationType: 2
   additionalBone: 0
   userData: 

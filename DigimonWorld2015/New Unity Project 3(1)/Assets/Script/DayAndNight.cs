@@ -23,7 +23,7 @@ public class DayAndNight : MonoBehaviour {
 
 	void OnGUI () {
 
-		myTime += Time.deltaTime;
+		myTime += 1;
 
 
 		if(hour >= 23.0)

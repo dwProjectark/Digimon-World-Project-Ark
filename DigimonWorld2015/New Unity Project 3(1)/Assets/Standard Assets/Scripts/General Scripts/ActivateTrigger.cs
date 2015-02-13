@@ -10,6 +10,16 @@ public class ActivateTrigger : MonoBehaviour {
 		Deactivate= 5 // Decativate target GameObject
 	}
 
+
+
+	public enum Type
+	{
+		CameraTrigger,
+		SceneTrigger,
+		BattleTrigger,
+		BattleRadius
+
+	}
 	/// The action to accomplish
 	public Mode action = Mode.Activate;
 
