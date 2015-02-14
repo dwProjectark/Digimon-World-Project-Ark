@@ -28,6 +28,7 @@ public class DigiTime : MonoBehaviour
 	[HideInInspector] public	int clockDay;
 	[HideInInspector] public	int clockYear;
 
+
 		
 		
 		//Used to help with sexy command and also with time ifstament
@@ -206,7 +207,7 @@ public class DigiTime : MonoBehaviour
 
 
 
-		hourText.text = "Hour " +clockHour.ToString();
+		hourText.text = Time.captureFramerate.ToString ();
 
 		}
 	}
