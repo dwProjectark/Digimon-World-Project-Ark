@@ -8,7 +8,13 @@ public class Accessing_Menu : MonoBehaviour {
 	public CanvasGroup Player_Menu_Stats;
 	public CanvasGroup Dgimon_Menu;
 	public CanvasGroup Dgimon_Menu_Stats;
-	public CanvasGroup inventoryMenu;
+	public CanvasGroup inventory_Menu;
+	public Canvas mainMenu;
+	public Canvas playerMenu;
+	public Canvas playerMenuStats;
+	public Canvas digimonMenu;
+	public Canvas digimonMenuStats;
+	public Canvas inventoryMenu;
 	// Use this for initialization
 	void Start () {
 		isOpen = false;
@@ -25,21 +31,28 @@ public class Accessing_Menu : MonoBehaviour {
 				Main_Menu.alpha = 1;
 				Main_Menu.interactable = true;
 				isOpen = false;
+				mainMenu.sortingOrder = 1;
 			}
 			else 
 			{
 				Main_Menu.alpha = 0;
 				Main_Menu.interactable = false;
+				mainMenu.sortingOrder = 0;
 				Player_Menu.alpha = 0;
 				Player_Menu.interactable = false;
+				playerMenu.sortingOrder =0;
 				Player_Menu_Stats.alpha = 0;
 				Player_Menu_Stats.interactable = false;
+				playerMenuStats.sortingOrder = 0;
 				Dgimon_Menu.alpha = 0;
 				Dgimon_Menu.interactable = false;
+				digimonMenu.sortingOrder = 0;
 				Dgimon_Menu_Stats.alpha = 0;
 				Dgimon_Menu_Stats.interactable = false;
-				inventoryMenu.alpha = 0;
-				inventoryMenu.interactable = false;
+				digimonMenuStats.sortingOrder = 0;
+				inventory_Menu.alpha = 0;
+				inventory_Menu.interactable = false;
+				inventoryMenu.sortingOrder =0;
 				isOpen = true;
 			}
 		}

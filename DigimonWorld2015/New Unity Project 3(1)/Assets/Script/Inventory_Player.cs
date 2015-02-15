@@ -9,6 +9,8 @@ public class Inventory_Player : MonoBehaviour {
 	public GameObject slots;
 	int x = -24;
 	int y =141;
+	public int enableItem = 0;
+
 
 	// Use this for initialization
 	void Start () {
@@ -27,18 +29,51 @@ public class Inventory_Player : MonoBehaviour {
 						y -= 70;
 						Slotamount++;
 				}
-		addItem (0);
-		addItem (1);
+		//addItem (1);
+
+
 
 		//Debug.Log (Items [1].name);
 	}
 	
 	// Update is called once per frame
 	void Update () {
-	
+
+//		switch (enableItem) 
+//		{
+//
+//		case 1:
+//			for(int i =0;i<Slots.Count;i++)
+//			{
+//				if(Items[i].name== "Hawk Radish")
+//				{
+//					enableItem = 0;
+//					Debug.Log("WTF");
+//					break;
+//				}
+//			} 
+//			addItem (0);
+//			Debug.Log(enableItem+"BITCH");
+//			enableItem = 0;
+//			break;
+//		case 2:
+//			for(int i =0;i<Slots.Count;i++)
+//			{
+//				if(Items[i].name== "Meat")
+//				{
+//					enableItem = 0;
+//					Debug.Log("WTF");
+//					break;
+//				}
+//			}
+//			addItem(1);
+//			enableItem = 0;
+//			break;
+//		}
+		//Debug.Log (GameObject.Find ("Itemdatabase").GetComponent<ItemDatabase> ()._items[1].amount);
 	}
 
-	void addItem(int id)
+	public void addItem(int id)
 	{
 		for (int i =0; i< database._items.Count; i++) 
 		{

@@ -27,13 +27,43 @@ public class UseItemBoost : MonoBehaviour,IPointerDownHandler {
 	// Update is called once per frame
 	void Update () {
 		//SlotNumClone = GameObject.FindGameObjectWithTag ("Slot").GetComponent<SlotScript> ().SlotNum;
+
 	}
 	public void OnPointerDown(PointerEventData data)
 	{
-		Debug.Log (SlotNumClone);
-		if (GameObject.FindGameObjectWithTag ("Slot").GetComponent<SlotScript> ().inventory.Items[0].amount > 0&&SlotNumClone == 0) 
+
+
+		ItemBoostUse ();
+		ItemFood ();
+	
+	}
+	void removeFromInventory(string ItemName)
+	{
+
+		if (GameObject.FindGameObjectWithTag ("Slot").GetComponent<SlotScript> ().inventory.Items [SlotNumClone].amount < 1) {
+			Debug.Log(SlotNumClone);
+//						for (int i=0; i < GameObject.FindGameObjectWithTag("Inventory").GetComponent<Inventory_Player>().Slots.Count; i++) {
+			if (GameObject.FindGameObjectWithTag ("Inventory").GetComponent<Inventory_Player> ().Items [SlotNumClone].name == ItemName) {
+				GameObject.FindGameObjectWithTag ("Inventory").GetComponent<Inventory_Player> ().Items.RemoveAt (SlotNumClone);
+				GameObject.FindGameObjectWithTag ("Inventory").GetComponent<Inventory_Player> ().Items.Add(new Item());
+									Debug.Log ("it has been removed");
+				for(int i =0;i<GameObject.FindGameObjectWithTag ("Slot").GetComponent<SlotScript> ().inventory.Items.Count;i++)
+									{
+										Debug.Log (GameObject.FindGameObjectWithTag ("Slot").GetComponent<SlotScript> ().inventory.Items[i].name);
+									}
+								}
+
+//						}
+				}
+	}
+
+	void ItemBoostUse()
+	{
+		if (GameObject.FindGameObjectWithTag ("Slot").GetComponent<SlotScript> ().inventory.Items[SlotNumClone].amount > 0&&SlotNumClone == 0&&GameObject.FindGameObjectWithTag ("Slot").GetComponent<SlotScript> ().inventory.Items[SlotNumClone].name == "Hawk Radish") 
 		{
-			GameObject.FindGameObjectWithTag ("Slot").GetComponent<SlotScript> ().inventory.Items[0].amount -= 1;
+			
+			GameObject.FindGameObjectWithTag ("Slot").GetComponent<SlotScript> ().inventory.Items[SlotNumClone].amount -= 1;
+			removeFromInventory("Hawk Radish");
 			GameObject.FindGameObjectWithTag("partner").GetComponent<Partner_Stats>().brain +=_Brains;
 			GameObject.FindGameObjectWithTag("partner").GetComponent<Partner_Stats>().defense +=_Defense;
 			GameObject.FindGameObjectWithTag("partner").GetComponent<Partner_Stats>().discipline +=_Discipline;
@@ -43,26 +73,33 @@ public class UseItemBoost : MonoBehaviour,IPointerDownHandler {
 			GameObject.FindGameObjectWithTag("partner").GetComponent<Partner_Stats>().offence +=_Offense;
 			GameObject.FindGameObjectWithTag("partner").GetComponent<Partner_Stats>().speed +=_Speed;
 			GameObject.FindGameObjectWithTag("partner").GetComponent<Partner_Stats>().weight +=_Weight;
-
+			
+			
+			
 		}
+	}
 
-		 if(GameObject.FindGameObjectWithTag ("Slot").GetComponent<SlotScript> ().inventory.Items[1].amount > 0&&SlotNumClone == 1)
+	void ItemFood()
+	{
+		if(GameObject.FindGameObjectWithTag ("Slot").GetComponent<SlotScript> ().inventory.Items[SlotNumClone].name == "Meat")
 		{
-			if (GameObject.FindGameObjectWithTag ("Slot").GetComponent<SlotScript> ().inventory.Items[1].amount > 0) 
+			Debug.Log("hello");
+			if (GameObject.FindGameObjectWithTag ("Slot").GetComponent<SlotScript> ().inventory.Items[SlotNumClone].amount > 0) 
 			{
 				
-				if(GameObject.FindGameObjectWithTag("partner").GetComponent<DigimonBase>().stomachSize !=0)
+				
+				//if(GameObject.FindGameObjectWithTag("partner").GetComponent<DigimonBase>().stomachSize !=0)
+				//{
+				GameObject.FindGameObjectWithTag ("Slot").GetComponent<SlotScript> ().inventory.Items[SlotNumClone].amount -= 1;
+				removeFromInventory("Meat");
+				GameObject.FindGameObjectWithTag("partner").GetComponent<DigimonBase>().stomachSize -= filling;
+				if(GameObject.FindGameObjectWithTag("partner").GetComponent<DigimonBase>().stomachSize <0)
 				{
-					GameObject.FindGameObjectWithTag ("Slot").GetComponent<SlotScript> ().inventory.Items[1].amount -= 1;
-					GameObject.FindGameObjectWithTag("partner").GetComponent<DigimonBase>().stomachSize -= filling;
-					if(GameObject.FindGameObjectWithTag("partner").GetComponent<DigimonBase>().stomachSize <0)
-					{
-						GameObject.FindGameObjectWithTag("partner").GetComponent<DigimonBase>().stomachSize = 0;
-					}
+					GameObject.FindGameObjectWithTag("partner").GetComponent<DigimonBase>().stomachSize = 0;
 				}
+				//}
 				
 			}
 		}
-	
 	}
 }

@@ -19,7 +19,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_4_6_2;UNITY_4_6;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_1;UNITY_4_6;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -39,10 +39,10 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>E:/Program/Unity3D/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>E:/Program/Unity3D/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
@@ -65,40 +65,40 @@
      <None Include="Assets\RAIN\Editor\Shaders\AspectRingShader.shader" />
      <None Include="Assets\RAIN\Editor\Shaders\NavMeshColliderShader.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/Digimon Game/Documents/unityproject/DigimonGame/FinalGithub/Digimon-World-Project-Ark/DigimonWorld2015/New Unity Project 3(1)/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>E:/Projects/Digimon/Digimon-World-Project-Ark/DigimonWorld2015/New Unity Project 3(1)/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="Assembly-UnityScript">
- <HintPath>C:/Users/Digimon Game/Documents/unityproject/DigimonGame/FinalGithub/Digimon-World-Project-Ark/DigimonWorld2015/New Unity Project 3(1)/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ <HintPath>E:/Projects/Digimon/Digimon-World-Project-Ark/DigimonWorld2015/New Unity Project 3(1)/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.2/UnityEngine.UI.dll</HintPath>
+ <HintPath>E:/Program/Unity3D/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.2/Editor/UnityEditor.UI.dll</HintPath>
+ <HintPath>E:/Program/Unity3D/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/Editor/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="RAIN">
- <HintPath>C:/Users/Digimon Game/Documents/unityproject/DigimonGame/FinalGithub/Digimon-World-Project-Ark/DigimonWorld2015/New Unity Project 3(1)/Assets/RAIN/RAIN.dll</HintPath>
+ <HintPath>E:/Projects/Digimon/Digimon-World-Project-Ark/DigimonWorld2015/New Unity Project 3(1)/Assets/RAIN/RAIN.dll</HintPath>
  </Reference>
  <Reference Include="RAINMetaform">
- <HintPath>C:/Users/Digimon Game/Documents/unityproject/DigimonGame/FinalGithub/Digimon-World-Project-Ark/DigimonWorld2015/New Unity Project 3(1)/Assets/RAIN/RAINMetaform.dll</HintPath>
+ <HintPath>E:/Projects/Digimon/Digimon-World-Project-Ark/DigimonWorld2015/New Unity Project 3(1)/Assets/RAIN/RAINMetaform.dll</HintPath>
  </Reference>
  <Reference Include="AetherUnity">
- <HintPath>C:/Users/Digimon Game/Documents/unityproject/DigimonGame/FinalGithub/Digimon-World-Project-Ark/DigimonWorld2015/New Unity Project 3(1)/Assets/RAIN/Editor/AetherUnity.dll</HintPath>
+ <HintPath>E:/Projects/Digimon/Digimon-World-Project-Ark/DigimonWorld2015/New Unity Project 3(1)/Assets/RAIN/Editor/AetherUnity.dll</HintPath>
  </Reference>
  <Reference Include="LegionRestModel">
- <HintPath>C:/Users/Digimon Game/Documents/unityproject/DigimonGame/FinalGithub/Digimon-World-Project-Ark/DigimonWorld2015/New Unity Project 3(1)/Assets/RAIN/Editor/LegionRestModel.dll</HintPath>
+ <HintPath>E:/Projects/Digimon/Digimon-World-Project-Ark/DigimonWorld2015/New Unity Project 3(1)/Assets/RAIN/Editor/LegionRestModel.dll</HintPath>
  </Reference>
  <Reference Include="RAINEditor">
- <HintPath>C:/Users/Digimon Game/Documents/unityproject/DigimonGame/FinalGithub/Digimon-World-Project-Ark/DigimonWorld2015/New Unity Project 3(1)/Assets/RAIN/Editor/RAINEditor.dll</HintPath>
+ <HintPath>E:/Projects/Digimon/Digimon-World-Project-Ark/DigimonWorld2015/New Unity Project 3(1)/Assets/RAIN/Editor/RAINEditor.dll</HintPath>
  </Reference>
  <Reference Include="RAINMetaformEditor">
- <HintPath>C:/Users/Digimon Game/Documents/unityproject/DigimonGame/FinalGithub/Digimon-World-Project-Ark/DigimonWorld2015/New Unity Project 3(1)/Assets/RAIN/Editor/RAINMetaformEditor.dll</HintPath>
+ <HintPath>E:/Projects/Digimon/Digimon-World-Project-Ark/DigimonWorld2015/New Unity Project 3(1)/Assets/RAIN/Editor/RAINMetaformEditor.dll</HintPath>
  </Reference>
  <Reference Include="RAINUpdater">
- <HintPath>C:/Users/Digimon Game/Documents/unityproject/DigimonGame/FinalGithub/Digimon-World-Project-Ark/DigimonWorld2015/New Unity Project 3(1)/Assets/RAIN/Editor/RAINUpdater.dll</HintPath>
+ <HintPath>E:/Projects/Digimon/Digimon-World-Project-Ark/DigimonWorld2015/New Unity Project 3(1)/Assets/RAIN/Editor/RAINUpdater.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
- <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ <HintPath>E:/Program/Unity3D/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

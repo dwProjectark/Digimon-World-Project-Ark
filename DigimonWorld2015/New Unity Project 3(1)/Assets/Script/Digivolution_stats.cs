@@ -1,4 +1,4 @@
-﻿/*using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 
 public class Digivolution_stats : MonoBehaviour {
@@ -60,9 +60,9 @@ public class Digivolution_stats : MonoBehaviour {
 	float day;
 	
 	//additional needed variables
-	DayAndNight script_dayAndNight; ///this can most likely replay gameObject dayAndNight at some point.
+	DigiTime script_dayAndNight; ///this can most likely replay gameObject dayAndNight at some point.
 	Partner_Stats partner_Stats;
-	Hour scr_Hour;
+	DigiTime scr_Hour;
 	
 	// Use this for initialization
 	void Start () {
@@ -75,7 +75,7 @@ public class Digivolution_stats : MonoBehaviour {
 		//to reduce the GetComponent calls we use the new references created to hold the values
 
 		partner_Stats = partner.GetComponent<Partner_Stats>();
-		scr_Hour = _Day.GetComponent<Hour>();
+		scr_Hour = _Day.GetComponent<DigiTime>();
 		
 	}
 	
@@ -84,14 +84,14 @@ public class Digivolution_stats : MonoBehaviour {
 
 		//the getComponent sections here can now be replaced with their respective references.
 		hour = 1; //filler//hour = script_dayAndNight.hour;
-		ParBrains = partner_Stats.brains;
+		ParBrains = partner_Stats.brain;
 		ParCareMistakes = partner_Stats.careMistakes;
 		ParDefense = partner_Stats.defense;
 		ParDiscipline = partner_Stats.discipline;
 		ParHappiness = partner_Stats.happiness;
-		ParMaxHP = partner_Stats.maxHp;
-		ParMaxMP = partner_Stats.maxMp;
-		ParOffence = partner_Stats.offense;
+		ParMaxHP = partner_Stats.hpMax;
+		ParMaxMP = partner_Stats.mpMax;
+		ParOffence = partner_Stats.offence;
 		ParSpeed = partner_Stats.speed;
 		ParWeight = partner_Stats.weight;
 		day = 1;//day = scr_Hour.day;
@@ -146,4 +146,3 @@ public class Digivolution_stats : MonoBehaviour {
 	}
 	
 }
-*/

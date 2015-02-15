@@ -4,6 +4,8 @@ using System.Collections;
 public class PickUpItem : MonoBehaviour {
 	
 	public int itemCap;
+	int SlotNumCopy;
+	bool found = false;
 	// Use thi for initialization
 	void Start () {
 		//Amount = GameObject.FindGameObjectWithTag ("Slot").GetComponent<SlotScript> ().SlotNum;
@@ -11,24 +13,44 @@ public class PickUpItem : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+		SlotNumCopy = GameObject.FindGameObjectWithTag ("Slot").GetComponent<SlotScript> ().SlotNum;
 	}
 	void OnTriggerEnter()
 	{
+
 		if (GameObject.FindGameObjectWithTag ("Player")) 
 		{	
-			if(gameObject.CompareTag("Hawk Radish")&&GameObject.FindGameObjectWithTag("Slot").GetComponent<SlotScript>().inventory.Items[0].amount<=itemCap)
+			addItemToInventory("Hawk Radish",0);
+			addItemToInventory("Meat",1);
+//			
+		}
+	}
+
+	void addItemToInventory(string itemName,int itemID)
+	{
+		if(gameObject.CompareTag(itemName))
+		{
+			for(int i = 0;i < GameObject.FindGameObjectWithTag("Inventory").GetComponent<Inventory_Player>().Slots.Count;i++)
 			{
-				Debug.Log (GameObject.FindGameObjectWithTag("Slot").GetComponent<SlotScript>().itemAmount);
-				GameObject.FindGameObjectWithTag("Slot").GetComponent<SlotScript>().inventory.Items[0].amount += 1;
-				Destroy(gameObject);
+				if (GameObject.FindGameObjectWithTag("Inventory").GetComponent<Inventory_Player>().Items[i].name == itemName)
+				{
+					found = true;
+					break;
+				}
 			}
-			else if(gameObject.CompareTag("Meat"))
+			if(!found)
+				GameObject.Find ("Inventory").GetComponent<Inventory_Player>().addItem(itemID);
+			for(int i =0;i< GameObject.FindGameObjectWithTag("Inventory").GetComponent<Inventory_Player>().Slots.Count;i++)
 			{
-				Debug.Log (GameObject.FindGameObjectWithTag("Slot").GetComponent<SlotScript>().itemAmount&&GameObject.FindGameObjectWithTag("Slot").GetComponent<SlotScript>().inventory.Items[0].amount<=itemCap);
-				GameObject.FindGameObjectWithTag("Slot").GetComponent<SlotScript>().inventory.Items[1].amount += 1;
-				Destroy(gameObject);
+				if(GameObject.Find ("Inventory").GetComponent<Inventory_Player>().Items[i].id == itemID)
+				{
+					GameObject.FindGameObjectWithTag("Slot").GetComponent<SlotScript>().inventory.Items[i].amount += 1;
+					break;
+				}
 			}
+			Destroy(gameObject);
+			
+			
 		}
 	}
 }

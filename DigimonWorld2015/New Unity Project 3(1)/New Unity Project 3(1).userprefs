@@ -1,10 +1,19 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\DigiTime.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\UseItemBoost.cs">
     <Files>
-      <File FileName="Assets\Script\DigiTime.cs" Line="213" Column="1" />
-      <File FileName="Assets\Script\Partner_Stats.cs" Line="211" Column="33" />
-      <File FileName="Assets\Script\DigimonBase.cs" Line="8" Column="30" />
+      <File FileName="Assets\Script\PickUpItem.cs" Line="23" Column="24" />
+      <File FileName="Assets\Script\Accessing_Menu.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\Digivolution_stats.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\Digimon_Behaviour.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\UseItemBoost.cs" Line="30" Column="3" />
+      <File FileName="Assets\Script\Inventory_Player.cs" Line="42" Column="6" />
+      <File FileName="Assets\Script\SlotScript.cs" Line="57" Column="3" />
+      <File FileName="Assets\Script\InventoryButton.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\Partner_Stats.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\DigiTime.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\ItemDatabase.cs" Line="10" Column="30" />
+      <File FileName="Assets\Script\Item.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -8,13 +8,14 @@ public class SlotScript : MonoBehaviour,IPointerEnterHandler,IPointerExitHandler
 	
 	public Item item;
 	Image itemImage;
-	Text itemName;
+	public Text itemName;
 	public Text itemAmount;
 	Text itemDesc;
 	public int SlotNum;
 	//public int Amount;
 	public CanvasGroup option;
 	public Inventory_Player inventory;
+
 	
 	
 	// Use this for initialization
@@ -60,10 +61,14 @@ public class SlotScript : MonoBehaviour,IPointerEnterHandler,IPointerExitHandler
 	{
 		itemDesc.enabled = true;
 		if (inventory.Items [SlotNum].amount != 0) {
-			itemDesc.enabled = true;
+						itemDesc.enabled = true;
 
-		}
+				}
+		else {
+			itemDesc.enabled = false;
+			}
 		itemDesc.text = inventory.Items[SlotNum].Description;
+		Debug.Log (SlotNum);
 
 
 		
